@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soralia Village Campaign - Stop Automatic Handovers</title>
+    <meta name="description" content="Join the Soralia Village Campaign. Demand no automatic handovers of arrears accounts for pensioners, disabled persons, and military veterans.">
+    <meta property="og:title" content="Soralia Village Campaign - Stop Automatic Handovers">
+    <meta property="og:description" content="Protect our vulnerable members. Cut muni debt not livelihoods.">
+    <meta property="og:image" content="image.jpeg">
+    <meta property="og:url" content="https://soraliacampaign.org.za">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #1e2d4a;
+            --orange: #c75c2e;
+            --cream: #f5f0e8;
+            --dark: #1a1a1a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--cream);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .hero-image {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 900;
+            color: var(--navy);
+            margin-bottom: 1rem;
+            line-height: 1.1;
+        }
+
+        .tagline {
+            font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+            color: var(--orange);
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+
+        .demands {
+            background: var(--navy);
+            color: white;
+            padding: 3rem 2rem;
+            margin: 2rem 0;
+            border-radius: 12px;
+        }
+
+        .demands h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--orange);
+        }
+
+        .demands ul {
+            list-style: none;
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .demands li {
+            padding: 0.75rem 0;
+            font-size: 1.1rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .demands li:last-child {
+            border-bottom: none;
+        }
+
+        .demands li::before {
+            content: "✓ ";
+            color: var(--orange);
+            font-weight: bold;
+        }
+
+        .cta-section {
+            background: var(--orange);
+            color: white;
+            padding: 3rem 2rem;
+            margin: 2rem 0;
+            border-radius: 12px;
+        }
+
+        .cta-section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .petition-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .petition-form input[type="text"],
+        .petition-form input[type="email"] {
+            padding: 1rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: inherit;
+        }
+
+        .petition-form button {
+            padding: 1rem 2rem;
+            background: var(--navy);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .petition-form button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .hashtag {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-top: 2rem;
+        }
+
+        footer {
+            background: var(--navy);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: var(--orange);
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            .content {
+                padding: 2rem 1rem;
+            }
+
+            .demands, .cta-section {
+                padding: 2rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-image">
+            <img src="image.jpeg" alt="Soralia Village Campaign - Stop Automatic Handovers">
+        </div>
+    </section>
+
+    <section class="content">
+        <h1>Stop Automatic Handovers</h1>
+        <p class="tagline">Protect Our Vulnerable Members</p>
+
+        <div class="demands">
+            <h2>Our Demands</h2>
+            <ul>
+                <li>No automatic handovers of arrears accounts for pensioners</li>
+                <li>No automatic handovers for disabled persons</li>
+                <li>No automatic handovers for military veterans</li>
+                <li>Social assessment of accounts by the Board</li>
+            </ul>
+        </div>
+
+        <div class="cta-section">
+            <h2>Add Your Voice</h2>
+            <p>Sign the petition to demand fair treatment for all community members.</p>
+            <form class="petition-form" name="petition" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="petition">
+                <p class="hidden" style="display:none">
+                    <label>Don't fill this out: <input name="bot-field"></label>
+                </p>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <button type="submit">Sign the Petition</button>
+            </form>
+        </div>
+
+        <p class="hashtag">#SaveOurVillage</p>
+    </section>
+
+    <footer>
+        <p>Soralia Village Community Action</p>
+        <p><a href="mailto:info@soraliacampaign.org.za">info@soraliacampaign.org.za</a></p>
+    </footer>
+</body>
+</html>
