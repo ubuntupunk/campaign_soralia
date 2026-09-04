@@ -446,3 +446,51 @@ footer a {
         font-size: 1.25rem;
     }
 }
+
+/* Success Page */
+.success-page {
+    min-height: calc(100vh - 200px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+}
+
+.success-content {
+    text-align: center;
+    max-width: 500px;
+}
+
+.success-content h1 {
+    font-size: 3rem;
+    color: var(--navy);
+    margin-bottom: 1rem;
+}
+
+.success-message {
+    font-size: 1.5rem;
+    color: var(--orange);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.success-content p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.success-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: var(--navy);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 700;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.success-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
