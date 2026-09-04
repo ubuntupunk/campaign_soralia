@@ -15,22 +15,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="site-header">
-        <div class="header-container">
-            <a href="/" class="logo">SVC</a>
-            <button class="burger" aria-label="Toggle menu" aria-expanded="false">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <nav class="nav-links" aria-hidden="true">
-                <a href="#about">About</a>
-                <a href="article.html">Article</a>
-                <a href="#rights">Rights</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </div>
-    </header>
+    <div id="site-header"></div>
 
     <section class="hero">
         <div class="hero-image">
@@ -106,24 +91,6 @@
         <p><a href="mailto:info@soraliavillagecampaign.org.za">info@soraliavillagecampaign.org.za</a></p>
     </footer>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const burger = document.querySelector('.burger');
-            const nav = document.querySelector('.nav-links');
-
-            burger.addEventListener('click', () => {
-                const expanded = burger.getAttribute('aria-expanded') === 'true';
-                burger.setAttribute('aria-expanded', !expanded);
-                nav.setAttribute('aria-hidden', expanded);
-            });
-
-            nav.querySelectorAll('a').forEach(link => {
-                link.addEventListener('click', () => {
-                    burger.setAttribute('aria-expanded', 'false');
-                    nav.setAttribute('aria-hidden', 'true');
-                });
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
