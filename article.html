@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Case Against Automatic Handovers - Soralia Village Campaign</title>
+    <meta name="description" content="Why automatic handovers of arrears accounts harm our most vulnerable community members and what we can do about it.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Newsreader:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="/" class="logo">Soralia Village</a>
+            <button class="burger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-links" aria-hidden="true">
+                <a href="index.html#about">About</a>
+                <a href="article.html">Article</a>
+                <a href="index.html#rights">Rights</a>
+                <a href="index.html#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="article-page">
+        <article class="article-content">
+            <h1>The Case Against Automatic Handovers</h1>
+            <p class="article-intro">Why we must protect our most vulnerable community members</p>
+
+            <div class="article-body">
+                <p>Soralia Village is our home. We protect each other.</p>
+
+                <p>We all feel the pressure of the large municipal bill. Automatic handovers of arrears accounts may look like a quick fix, but they do not solve the real problem. They simply move the stress onto individual households — especially the most vulnerable among us.</p>
+
+                <p>Pensioners on fixed incomes, residents living with disabilities, and military veterans who have already given so much should not be the first to face collection fees, demand letters and credit pressure. Our history and our Constitution remind us that dignity and fairness matter. A healthy community does not squeeze its most vulnerable members while the bigger municipal debt remains untouched.</p>
+
+                <h2>There is a better way.</h2>
+
+                <p>We call on our Board to:</p>
+
+                <ul>
+                    <li>Stop automatic handovers for pensioners, disabled persons and military veterans</li>
+                    <li>Introduce proper social assessment of accounts before any collection steps</li>
+                    <li>Focus collective energy on engaging the City of Cape Town about the municipal bill itself — bulk meters, leaks, possible relief and long-term solutions</li>
+                </ul>
+
+                <blockquote>
+                    <p><strong>Cut Muni debt, not livelihoods.</strong></p>
+                </blockquote>
+
+                <p>When we protect our neighbours, we strengthen the whole village. Join the campaign. Speak up. Stand together.</p>
+
+                <p class="hashtag">#SaveOurVillage</p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>Soralia Village Community Action</p>
+        <p><a href="mailto:info@soraliacampaign.org.za">info@soraliacampaign.org.za</a></p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const burger = document.querySelector('.burger');
+            const nav = document.querySelector('.nav-links');
+
+            burger.addEventListener('click', () => {
+                const expanded = burger.getAttribute('aria-expanded') === 'true';
+                burger.setAttribute('aria-expanded', !expanded);
+                nav.setAttribute('aria-hidden', expanded);
+            });
+
+            nav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    burger.setAttribute('aria-expanded', 'false');
+                    nav.setAttribute('aria-hidden', 'true');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

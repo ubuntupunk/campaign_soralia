@@ -12,188 +12,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --navy: #1e2d4a;
-            --orange: #c75c2e;
-            --cream: #f5f0e8;
-            --dark: #1a1a1a;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background: var(--cream);
-            color: var(--dark);
-            line-height: 1.6;
-        }
-
-        .hero {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .hero-image {
-            width: 100%;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .hero-image img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-
-        .content {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 4rem 2rem;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: clamp(2rem, 5vw, 3.5rem);
-            font-weight: 900;
-            color: var(--navy);
-            margin-bottom: 1rem;
-            line-height: 1.1;
-        }
-
-        .tagline {
-            font-size: clamp(1.1rem, 2.5vw, 1.5rem);
-            color: var(--orange);
-            font-weight: 700;
-            margin-bottom: 2rem;
-        }
-
-        .demands {
-            background: var(--navy);
-            color: white;
-            padding: 3rem 2rem;
-            margin: 2rem 0;
-            border-radius: 12px;
-        }
-
-        .demands h2 {
-            font-size: 1.5rem;
-            margin-bottom: 1.5rem;
-            color: var(--orange);
-        }
-
-        .demands ul {
-            list-style: none;
-            text-align: left;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .demands li {
-            padding: 0.75rem 0;
-            font-size: 1.1rem;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
-        }
-
-        .demands li:last-child {
-            border-bottom: none;
-        }
-
-        .demands li::before {
-            content: "✓ ";
-            color: var(--orange);
-            font-weight: bold;
-        }
-
-        .cta-section {
-            background: var(--orange);
-            color: white;
-            padding: 3rem 2rem;
-            margin: 2rem 0;
-            border-radius: 12px;
-        }
-
-        .cta-section h2 {
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .cta-section p {
-            margin-bottom: 1.5rem;
-            font-size: 1.1rem;
-        }
-
-        .petition-form {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            max-width: 500px;
-            margin: 0 auto;
-        }
-
-        .petition-form input[type="text"],
-        .petition-form input[type="email"] {
-            padding: 1rem;
-            border: none;
-            border-radius: 8px;
-            font-size: 1rem;
-            font-family: inherit;
-        }
-
-        .petition-form button {
-            padding: 1rem 2rem;
-            background: var(--navy);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            font-size: 1.1rem;
-            font-weight: 700;
-            cursor: pointer;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-
-        .petition-form button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-        }
-
-        .hashtag {
-            font-size: 1.2rem;
-            font-weight: 700;
-            color: var(--navy);
-            margin-top: 2rem;
-        }
-
-        footer {
-            background: var(--navy);
-            color: white;
-            text-align: center;
-            padding: 2rem;
-            margin-top: 2rem;
-        }
-
-        footer a {
-            color: var(--orange);
-            text-decoration: none;
-        }
-
-        @media (max-width: 600px) {
-            .content {
-                padding: 2rem 1rem;
-            }
-
-            .demands, .cta-section {
-                padding: 2rem 1rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="/" class="logo">Soralia Village</a>
+            <button class="burger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-links" aria-hidden="true">
+                <a href="#about">About</a>
+                <a href="article.html">Article</a>
+                <a href="#rights">Rights</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
     <section class="hero">
         <div class="hero-image">
             <img src="image.jpeg" alt="Soralia Village Campaign - Stop Automatic Handovers">
@@ -231,9 +69,62 @@
         <p class="hashtag">#SaveOurVillage</p>
     </section>
 
+    <section id="about" class="page-section">
+        <h2>About the Campaign</h2>
+        <p>The Soralia Village Campaign stands united against automatic handovers of arrears accounts that threaten our most vulnerable community members. We believe in fair treatment and social assessment before any action is taken against pensioners, disabled persons, and military veterans.</p>
+        <p>Our community deserves dignity, not displacement. We demand that the Board conducts proper social assessments before making decisions that affect people's lives and livelihoods.</p>
+    </section>
+
+    <section id="rights" class="page-section">
+        <h2>Know Your Rights</h2>
+        <div class="rights-grid">
+            <div class="right-card">
+                <h3>Right to Fair Process</h3>
+                <p>No one should face automatic handovers without proper assessment of their circumstances.</p>
+            </div>
+            <div class="right-card">
+                <h3>Right to Social Assessment</h3>
+                <p>The Board must evaluate individual situations before taking action on arrears accounts.</p>
+            </div>
+            <div class="right-card">
+                <h3>Right to Dignity</h3>
+                <p>Vulnerable members deserve respect and protection, not punitive measures.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="page-section">
+        <h2>Contact Us</h2>
+        <p>Get involved or report issues. Together we can make a difference.</p>
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:info@soraliacampaign.org.za">info@soraliacampaign.org.za</a></p>
+            <p><strong>Hashtag:</strong> #SaveOurVillage</p>
+        </div>
+    </section>
+
     <footer>
         <p>Soralia Village Community Action</p>
         <p><a href="mailto:info@soraliacampaign.org.za">info@soraliacampaign.org.za</a></p>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const burger = document.querySelector('.burger');
+            const nav = document.querySelector('.nav-links');
+
+            burger.addEventListener('click', () => {
+                const expanded = burger.getAttribute('aria-expanded') === 'true';
+                burger.setAttribute('aria-expanded', !expanded);
+                nav.setAttribute('aria-hidden', expanded);
+            });
+
+            nav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    burger.setAttribute('aria-expanded', 'false');
+                    nav.setAttribute('aria-hidden', 'true');
+                });
+            });
+        });
+    </script>
 </body>
 </html>
