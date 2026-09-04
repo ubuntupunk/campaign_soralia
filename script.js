@@ -1,10 +1,11 @@
+// Preload header to prevent flash
+const headerPromise = fetch('/header.html').then(r => r.text());
+
 document.addEventListener('DOMContentLoaded', async () => {
-    // Load header
     const headerContainer = document.getElementById('site-header');
     if (headerContainer) {
         try {
-            const response = await fetch('/header.html');
-            const headerHtml = await response.text();
+            const headerHtml = await headerPromise;
             headerContainer.innerHTML = headerHtml;
             initBurgerMenu();
         } catch (error) {

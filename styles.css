@@ -19,6 +19,15 @@ body {
     padding-top: 60px;
 }
 
+/* Header Container - prevents flash */
+#site-header {
+    min-height: 60px;
+}
+
+#site-header:empty {
+    background: var(--navy);
+}
+
 /* Header */
 .site-header {
     position: fixed;
