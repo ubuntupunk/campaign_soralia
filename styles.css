@@ -273,6 +273,49 @@ h1 {
     margin-top: 2rem;
 }
 
+/* Share Buttons */
+.share-buttons {
+    margin-top: 2rem;
+}
+
+.share-buttons p {
+    font-size: 1rem;
+    color: var(--dark);
+    margin-bottom: 1rem;
+}
+
+.share-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.share-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.share-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.share-facebook {
+    background: #1877f2;
+    color: white;
+}
+
+.share-x {
+    background: #000000;
+    color: white;
+}
+
 footer {
     background: var(--navy);
     color: white;
