@@ -349,6 +349,11 @@ footer a {
     font-weight: 600;
 }
 
+/* Form */
+.hidden {
+    display: none;
+}
+
 @media (max-width: 600px) {
     .content {
         padding: 2rem 1rem;
