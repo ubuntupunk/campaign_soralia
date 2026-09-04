@@ -310,6 +310,12 @@ footer a {
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.right-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15);
 }
 
 .right-card h3 {
@@ -325,6 +331,12 @@ footer a {
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     max-width: 400px;
     margin: 2rem auto 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-info:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15);
 }
 
 .contact-info p {
