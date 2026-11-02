@@ -48,7 +48,7 @@ notice and the imposition of a novel voting system in breach of the
 constitution, which resulted in paper ballots being discarded, with digital voting rendering instantaneous but spurious outcomes.
 
 I have filed an additional complaint before the Council of Debt
-Collectors regarding the improper and unlawful actions of Trafalgar. Their latest
+Collectors (CDC) regarding the improper and unlawful actions of Trafalgar. Their latest
 response to my first CSOS complaint, is incoherent to say the least. It attaches
 a new resolution by the Board governing handovers seeking to implement the
 resolution retroactively whilst making out a case that I am somehow a
