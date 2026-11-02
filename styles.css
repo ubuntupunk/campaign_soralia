@@ -177,6 +177,30 @@ h1 {
     margin-bottom: 2rem;
 }
 
+.notice {
+    display: block;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    padding: 1rem 1.25rem;
+    background: white;
+    border-left: 4px solid var(--orange);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    color: var(--navy);
+    text-align: left;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.notice:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+
+.notice strong {
+    color: var(--orange);
+}
+
 .demands {
     background: var(--navy);
     color: white;
@@ -498,6 +522,77 @@ footer a {
     text-align: center;
 }
 
+/* Documents */
+.document-card {
+    background: white;
+    border-left: 4px solid var(--orange);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin: 0 0 3rem;
+    padding: 1.75rem 2rem;
+    text-align: left;
+}
+
+.document-card-bottom {
+    margin: 3rem 0 0;
+}
+
+.document-label {
+    color: var(--orange);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.25rem;
+    text-transform: uppercase;
+}
+
+.document-card h2 {
+    color: var(--navy);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.35rem;
+    margin: 0.25rem 0 0.75rem;
+    text-align: left;
+}
+
+.document-card p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.document-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.document-button {
+    background: var(--navy);
+    border: 2px solid var(--navy);
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 0.75rem 1.25rem;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.document-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.document-button-secondary {
+    background: transparent;
+    color: var(--navy);
+}
+
 @media (max-width: 600px) {
     .article-page {
         padding: 2rem 1rem;
@@ -513,6 +608,10 @@ footer a {
 
     .article-body blockquote p {
         font-size: 1.25rem;
+    }
+
+    .document-card {
+        padding: 1.5rem;
     }
 }
 
