@@ -122,7 +122,7 @@ function thankYouHtml(name) {
 <li style="${li}">Share the campaign with neighbours on WhatsApp, Facebook or X.</li>
 <li style="${li}">Talk to members who may not have seen it.</li>
 <li style="${li}">Attend the next community meeting, and bring someone with you.</li>
-<li style="${li}">Put up a notice in your block if you are able to.</li>
+<li style="${li}">Inform your immediate neighbours, and use the physical notice board at the gatehouse to post notices if you are able to.</li>
 <li style="${li}">Help with the costs of the campaign if you can.</li>
 </ul>
 

@@ -31,6 +31,23 @@ Compare the output against the `Recipient` column.
 
 Total: 4 recipients, 4 sent, 0 failed.
 
+## 2026-11-02 — Thank-you backfill
+
+**Subject:** Thank you for signing the Soralia Village petition
+**From:** `info@soraliavillagecampaign.org.za`
+**Sent via:** Composio → Zoho Mail (`accountId` 7009601000000008002)
+**Audience:** Existing signers who predated the automatic thank-you
+
+| # | Recipient | Sent | Message ID | Status |
+|---|---|---|---|---|
+| 1 | `a12cd76e8335` | 2026-11-02 | `1793628954505155300` | sent |
+| 2 | `a0153d3825d3` | 2026-11-02 | `1793628955412155300` | sent |
+
+Total: 2 recipients, 2 sent, 0 failed.
+
+These were sent manually. New signers receive the same email automatically via
+`netlify/functions/submission-created.js`.
+
 ## Adding future sends
 
 1. Send the email through Composio/Zoho Mail and capture each `messageId`.
