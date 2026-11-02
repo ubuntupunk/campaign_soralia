@@ -3,5 +3,10 @@ emails/private/
 *.local.csv
 *.local.json
 
+# Secrets
+.env
+.env.*
+!.env.example
+
 # Netlify CLI link state
 .netlify/

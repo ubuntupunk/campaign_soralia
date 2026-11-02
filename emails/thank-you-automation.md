@@ -60,25 +60,43 @@ or `accounts.zoho.ca`.
 ```bash
 netlify link --id b9062429-0885-4580-ad5f-a80a90fde1e5
 
-netlify env:set ZOHO_CLIENT_ID      "..." --secret
-netlify env:set ZOHO_CLIENT_SECRET  "..." --secret
-netlify env:set ZOHO_REFRESH_TOKEN  "..." --secret
-netlify env:set ZOHO_ACCOUNT_ID     "7009601000000008002"
-netlify env:set ZOHO_FROM_ADDRESS   "info@soraliavillagecampaign.org.za"
-netlify env:set ZOHO_DC             "com"
+# Secrets must be scoped to non-dev contexts, or the CLI refuses them.
+netlify env:set ZOHO_CLIENT_ID     "..." --secret --force --context production deploy-preview branch-deploy
+netlify env:set ZOHO_CLIENT_SECRET "..." --secret --force --context production deploy-preview branch-deploy
+netlify env:set ZOHO_REFRESH_TOKEN "..." --secret --force --context production deploy-preview branch-deploy
+
+netlify env:set ZOHO_ACCOUNT_ID   "7009601000000008002" --force
+netlify env:set ZOHO_FROM_ADDRESS "info@soraliavillagecampaign.org.za" --force
+netlify env:set ZOHO_DC           "com" --force
 ```
+
+Note the syntax: `netlify env:set KEY VALUE`, **not** `KEY=VALUE`. The latter
+silently sets a variable with an empty value.
+
+Secrets cannot be set in the `dev` context — `--secret` without `--context`
+fails with "please specify a non-development context". Scope them to
+`production deploy-preview branch-deploy`.
 
 `ZOHO_DC` defaults to `com` and can be omitted if the account is on the US
 data centre.
 
-### 4. Deploy
+These same commands are kept in `emails/.env`, which is gitignored:
 
 ```bash
-git push
+bash emails/.env
 ```
 
-Netlify builds and registers the function automatically. No `package.json` is
-needed — the function uses only Node built-ins and the global `fetch`.
+### 4. Deploy
+
+Environment variables only reach a function on the next build. Either push a
+commit, or trigger one directly:
+
+```bash
+netlify api createSiteBuild --data '{"site_id":"b9062429-0885-4580-ad5f-a80a90fde1e5"}'
+```
+
+No `package.json` is needed — the function uses only Node built-ins and the
+global `fetch`.
 
 ## Testing
 
@@ -109,6 +127,18 @@ Then submit the form at `http://localhost:8888`.
   emailed.
 - **Refresh tokens can go stale.** If Zoho revokes it after a long period of
   inactivity, the log will show `Zoho token exchange failed`. Repeat step 2.
+
+### `invalid_code` from the token endpoint
+
+The value being used as `ZOHO_REFRESH_TOKEN` is almost certainly a **grant
+code**, not a refresh token. Grant codes are single-use and expire within
+minutes; they must be exchanged for a refresh token straight away (step 2).
+A refresh token is around 70 characters and contains no quotes.
+
+Values copied from the Zoho console often arrive wrapped in double quotes. Strip
+them before setting the variable — otherwise the quotes become part of the
+credential and Zoho returns a generic "An error occurred" HTML page with HTTP
+400.
 
 ## Follow-ups worth considering
 
