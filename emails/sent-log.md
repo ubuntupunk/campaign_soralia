@@ -49,6 +49,21 @@ Total: 3 recipients, 3 sent, 0 failed.
 These were sent manually. New signers receive the same email automatically via
 `netlify/functions/submission-created.js`.
 
+## 2026-11-02 — Personal reply to John Wilke
+
+**Subject:** Re: Thank you for signing the Soralia Village petition
+**From:** `info@soraliavillagecampaign.org.za`
+**Sent via:** Composio → Zoho Mail (`accountId` 7009601000000008002)
+**Audience:** John Wilke (reply to his CSOS-related question)
+
+| # | Recipient | Sent | Message ID | Status |
+|---|---|---|---|---|
+| 1 | `a12cd76e8335` | 2026-11-02 | `1793649489026138300` | sent |
+
+Total: 1 recipient, 1 sent, 0 failed.
+
+This was a one-on-one reply, not a campaign blast. David's assistant asked about his garage situation and penalties.
+
 ## Adding future sends
 
 1. Send the email through Composio/Zoho Mail and capture each `messageId`.
