@@ -31,7 +31,7 @@ each routine recovery action.
 I proceeded to contest the receipting fees, requesting sight of the 'Handover
 resolution' and thus the underlying jurist basis for the fees.
 My position is that such fees would only be possible if my account was formerly handed over,
-and even then, such a category does not exist in the current Debt regulations.
+and even then, such a category as 'receipting fees' does not exist in the current Debt regulations.
 
 What transpired could be considered a circus comedy, if the implications were
 not so dire. Trafalgar forwarded me documents from a totally different scheme
