@@ -42,8 +42,9 @@ Total: 4 recipients, 4 sent, 0 failed.
 |---|---|---|---|---|
 | 1 | `a12cd76e8335` | 2026-11-02 | `1793628954505155300` | sent |
 | 2 | `a0153d3825d3` | 2026-11-02 | `1793628955412155300` | sent |
+| 3 | `a46b47ffc940` | 2026-11-02 | `1793629292887138300` | sent |
 
-Total: 2 recipients, 2 sent, 0 failed.
+Total: 3 recipients, 3 sent, 0 failed.
 
 These were sent manually. New signers receive the same email automatically via
 `netlify/functions/submission-created.js`.
