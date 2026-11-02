@@ -1,5 +1,7 @@
 Why I complained to CSOS
 
+Our position is clear: automatic handovers are ultra vires clauses 7.6.8 and 8.6 of the Soralia Village Constitution. Clause 8.6 permits the committee to hand over a debt only if it has been outstanding for more than 30 days, and only by an active committee decision. Clause 7.6.8 requires committee approval for each routine recovery action. A blanket resolution or calendar trigger cannot replace those individual decisions.
+
 Lets get one thing straight. I don't owe anyone a cent
 on my property. My home is 100% paid up. My current levy account is also paid
 up.
@@ -19,6 +21,12 @@ responses that were incoherent and illogical to say the least. Accordingly, I
 was informed that our HOA had appointed Trafalgar as debt collectors, and they
 were acting in that capacity. In addition I was told, there was now an 'automatic
 handover after 7 days' in place (our constitution stipulates at least 30 days)
+
+That was not a mere procedural slip. An automatic handover by calendar date is
+ultra vires clause 8.6, which permits the committee to hand over a debt only once
+it has been outstanding for more than 30 days, and only by an active committee
+decision. It also bypasses clause 7.6.8, which requires committee approval for
+each routine recovery action.
 
 I proceeded to contest the receipting fees, requesting sight of the 'Handover
 resolution' and thus the underlying jurist basis for the fees.
@@ -45,6 +53,11 @@ response to my first CSOS complaint, is incoherent to say the least. It attaches
 a new resolution by the Board governing handovers seeking to implement the
 resolution retroactively whilst making out a case that I am somehow a
 recalcitrant debtor.
+
+That 15 July 2026 Hand Over Resolution is itself ultra vires clause 7.6.8. It
+removes the per-case committee approval our Constitution requires and delegates
+complete discretion to Trafalgar. A trustee resolution cannot override an express
+provision of the Constitution.
 
 I am not here to oppose lawful fees, but rather the strange
 notion that anybody should deem fit to aggressively pursue my household on

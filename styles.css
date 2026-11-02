@@ -201,6 +201,30 @@ h1 {
     color: var(--orange);
 }
 
+.position-line {
+    color: var(--navy);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 auto 1.5rem;
+    max-width: 700px;
+}
+
+.position-line strong {
+    color: var(--orange);
+}
+
+.position-conclusion {
+    color: var(--navy);
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.footer-position {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    opacity: 0.85;
+}
+
 .demands {
     background: var(--navy);
     color: white;
