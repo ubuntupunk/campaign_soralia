@@ -15,6 +15,8 @@ I am particularly concerned about seniors, people with disabilities, and militar
 
 I reserve all my options, including further complaints to the CSOS and the Council for Debt Collectors. I invite the trustees to review the 15 July handover resolution against the Constitution.
 
+Read [why I approached the CSOS](why.html) for the background to this complaint.
+
 Members should check their own statements for similar charges and query anything unclear in writing. This statement is not legal advice, and each account stands on its own facts.
 
 David Robert Lewis,
