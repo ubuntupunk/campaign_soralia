@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>html { background: #f5f0e8; }</style>
     <title>Soralia Village Campaign - Automatic Handovers Are Ultra Vires</title>
     <meta name="description" content="Join the Soralia Village Campaign. Our position: automatic handovers are ultra vires clauses 7.6.8 and 8.6 of our Constitution. Demand fair treatment for pensioners, disabled persons, and military veterans.">
     <meta property="og:title" content="Soralia Village Campaign - Automatic Handovers Are Ultra Vires">
@@ -13,14 +14,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preload" href="/header.html" as="fetch" crossorigin>
 </head>
 <body>
-    <div id="site-header"></div>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="/" class="logo">Soralia VC</a>
+            <button class="burger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-links" aria-hidden="true">
+                <a href="/#about">About</a>
+                <a href="/#position">Position</a>
+                <a href="/csos-order.html">CSOS Order</a>
+                <a href="/article.html">Article</a>
+                <a href="/why.html">Why</a>
+                <a href="/#rights">Rights</a>
+                <a href="/#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
 
     <section class="hero">
         <div class="hero-image">
-            <img src="image.jpeg" alt="Soralia Village Campaign - automatic handovers are ultra vires our Constitution">
+            <img src="image.jpeg" width="768" height="1376" fetchpriority="high" alt="Soralia Village Campaign - automatic handovers are ultra vires our Constitution">
         </div>
     </section>
 

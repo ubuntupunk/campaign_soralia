@@ -1,18 +1,6 @@
-// Preload header to prevent flash
-const headerPromise = fetch('/header.html').then(r => r.text());
-
-document.addEventListener('DOMContentLoaded', async () => {
-    const headerContainer = document.getElementById('site-header');
-    if (headerContainer) {
-        try {
-            const headerHtml = await headerPromise;
-            headerContainer.innerHTML = headerHtml;
-            initBurgerMenu();
-        } catch (error) {
-            console.error('Failed to load header:', error);
-        }
-    }
-});
+// The header is inlined in each page so it paints with the document.
+// This only wires up the mobile menu.
+document.addEventListener('DOMContentLoaded', initBurgerMenu);
 
 function initBurgerMenu() {
     const burger = document.querySelector('.burger');
