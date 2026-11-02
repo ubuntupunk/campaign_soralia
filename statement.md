@@ -13,7 +13,7 @@ My position is this. Treating an account as handed over for collection by calend
 
 I am particularly concerned about seniors, people with disabilities, and military veterans, many of whom live on fixed incomes and may pay late or in parts through no fault of their own. They are the members most exposed to automatic collection fees. We must not turn our HOA into a pure debt-collection machine. Let's tackle the sizeable MUNI bill together.
 
-I reserve all my options, including further complaints to the CSOS and the Council for Debt Collectors. I invite the trustees to review the 15 July handover resolution against the Constitution.
+I reserve all my options, including further complaints to the CSOS and the Council for Debt Collectors (CDC). I invite the trustees to review the 15 July handover resolution against the Constitution.
 
 Read [why I approached the CSOS](why.html) for the background to this complaint.
 
