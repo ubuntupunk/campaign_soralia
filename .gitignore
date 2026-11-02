@@ -1,0 +1,4 @@
+# Private campaign data — never commit
+emails/private/
+*.local.csv
+*.local.json

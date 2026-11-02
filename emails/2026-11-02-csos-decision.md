@@ -66,8 +66,9 @@ This update is not legal advice, and each account stands on its own facts.
 
 ## Send notes
 
+- **Status: sent 2026-11-02.** See [sent-log.md](sent-log.md) for the de-identified record.
 - Petition signers are stored in Netlify Forms under the `petition` form. There are currently 4 submissions.
-- Export the signer list from Netlify before sending, or use the Netlify API. Do not commit the exported list to the repository.
+- Export the signer list from Netlify before sending, or use the Netlify API. Do not commit the exported list to the repository. Local recipient data belongs in `emails/private/` (gitignored).
 - Send from `info@soraliavillagecampaign.org.za` once the Zoho Mail account is connected in Composio.
-- For a small list, send individually or use BCC. Do not expose recipients' email addresses in the `To` field.
+- Send individually rather than using BCC. Do not expose recipients' email addresses in the `To` field.
 - Keep the unsubscribe reply wording in the email.
