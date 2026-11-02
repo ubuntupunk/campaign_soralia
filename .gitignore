@@ -2,3 +2,6 @@
 emails/private/
 *.local.csv
 *.local.json
+
+# Netlify CLI link state
+.netlify/
