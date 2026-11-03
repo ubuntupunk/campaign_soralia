@@ -48,7 +48,7 @@ TICKET: <id> | ROLE: <role> | TIER: <n> | CONFIDENCE: <low/med/high> | NEEDS: <a
 |------|------|---------------------|
 | Communications Officer | `campaign/roles/05-communications-officer.md` | Owns outbound templates, petition thank-yous, campaign updates, send log, unsubscribe tracking |
 | Triage Officer | `campaign/roles/01-triage-officer.md` | Sole intake — reads all incoming `info@` mail, logs, categorises, prioritises, routes; drafts Tier 1 acknowledgments only |
-| David's Assistant | `campaign/roles/06-davids-assistant.md` | Drafts personal replies on David's behalf (signed "David's assistant", never as David); maintains approval queue view |
+| David's Assistant | `campaign/roles/06-davids-assistant.md` | Drafts personal replies on David's behalf (signs **"Max, assistant to David Lewis"**, never as David); maintains approval queue view |
 | Legal Officer | `campaign/roles/03-legal-officer.md` | Reviews Tier 3 drafts for legal risk; cites Constitution clauses and case numbers; "not legal advice" disclaimer |
 | General Organiser | `campaign/roles/02-general-organiser.md` | Tier 2 review of Communications Officer drafts against approved positions; petition list and unsubscribes |
 | Campaign Chief | `campaign/roles/07-campaign-chief.md` | Reviews Tier 3 drafts for position consistency and reputational risk; recommends APPROVE / APPROVE WITH CHANGES / DO NOT SEND / ESCALATE |

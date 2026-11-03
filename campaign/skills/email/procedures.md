@@ -9,7 +9,7 @@ Soralia Village Campaign — email operations for the campaign supporting senior
 3. **Every email includes the "not legal advice" disclaimer.** Each account stands on its own facts.
 4. **Every email states the campaign position.** Automatic handovers are ultra vires clauses 7.6.8 and 8.6 of the Constitution.
 5. **Individual sends preferred over BCC.** Protects recipient privacy and improves deliverability.
-6. **Signed appropriately.** Campaign emails are from Soralia Village Community Action; personal replies are signed "David's assistant."
+6. **Signed appropriately.** Campaign emails are from Soralia Village Community Action; personal replies are signed **"Max, assistant to David Lewis"**. Use the full form, not "David's assistant" and not "Max" alone — recipients are dealing with a stranger and should be able to see both who is writing and on whose behalf.
 
 ## Send types
 
@@ -59,7 +59,7 @@ File: `emails/2026-11-02-csos-decision.html`
 Covers: decision summary, what it does/doesn't decide, ultra vires position, links to order/PDF/why page, unsubscribe.
 
 ### Personal reply
-Adapted per situation. Must identify as "David's assistant" when sent on David's behalf.
+Adapted per situation. Must sign as **"Max, assistant to David Lewis"** when sent on David's behalf.
 
 ## Zoho Mail setup
 

@@ -91,6 +91,8 @@ One-on-one replies. The first advised a formal waiver application, disputed the 
 
 Withdrew three claims the evidence did not support (the R500 cap, "the constitution does not ban it", other-units precedent), and disclosed two adverse clauses (13.2.3(b) on window dimensions, 13.2.4 on colour) rather than leaving them for the trustees to raise. Introduced the clause 13.2.6 dispute process and clause 7.2, and asked for the Conduct Rules and the source of "Conduct Rule 5.1".
 
+**Signature convention.** Both messages above were signed "David's assistant". From 2026-11-03 the role signs **"Max, assistant to David Lewis"** (see `campaign/roles/06-davids-assistant.md`). Later correspondence in this thread should use the new form, and any reply from John addressed to "David's assistant" is still him.
+
 ## Adding future sends
 
 1. Send the email through Composio/Zoho Mail and capture each `messageId`.

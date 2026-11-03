@@ -15,7 +15,7 @@ A team of AI agents that helps run the Soralia Village campaign (`soraliavillage
 | `03-legal-officer.md` | Legal Officer | Drafts legal work, reviews Tier 3 drafts, **owns the case files**. Never files or signs |
 | `04-welfare-liaison.md` | Welfare Liaison | Supports seniors, disabled persons and veterans. Holds the most sensitive data |
 | `05-communications-officer.md` | Communications Officer | Outbound only: templates, updates, website and social drafts, send log |
-| `06-davids-assistant.md` | David's Assistant | Personal correspondence, calendar, briefings, and the approval queue view |
+| `06-davids-assistant.md` | Max, David's Assistant | Personal correspondence, calendar, briefings, and the approval queue view. Signs "Max, assistant to David Lewis" |
 | `07-campaign-chief.md` | Campaign Chief | Senior reviewer. **Recommends only**, has no approval power |
 
 Read `00-charter.md` first. Every role file points back to it, and it overrides them.
