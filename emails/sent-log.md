@@ -64,6 +64,24 @@ Total: 1 recipient, 1 sent, 0 failed.
 
 This was a one-on-one reply, not a campaign blast. David's assistant asked about his garage situation and penalties.
 
+## 2026-11-03 — John Wilke: strategy reply and draft formal dispute
+
+**Subject:** Re: Thank you for signing the Soralia Village petition — a stronger route than "reasonable accommodation"
+**From:** `info@soraliavillagecampaign.org.za`
+**Sent via:** Composio → Zoho Mail (`accountId` 7009601000000008002)
+**To:** John Wilke (cc: David)
+**Attachment:** `john-wilke-formal-dispute-DRAFT.docx` (draft letter for his attorney to review)
+**Approval:** Tier 3, sent on the principal's explicit individual authorisation.
+**Review chain:** Legal Officer and Campaign Chief review **not obtained** — both roles unstaffed on the day. The charter's "a human sends" rule was overridden by the principal for this item. Recorded here so the audit trail is accurate.
+
+| # | Recipient | Sent | Message ID | Status |
+|---|---|---|---|---|
+| 1 | `a12cd76e8335` | 2026-11-03 | `1793706352404138400` | sent |
+
+Total: 1 recipient, 1 sent, 0 failed.
+
+One-on-one reply. Advised a formal waiver application, disputed the fines against the clause 10.2 cap, and asked him to obtain his own attorney's review. Included the BackaBuddy link with an explicit statement that no donation was expected.
+
 ## Adding future sends
 
 1. Send the email through Composio/Zoho Mail and capture each `messageId`.
