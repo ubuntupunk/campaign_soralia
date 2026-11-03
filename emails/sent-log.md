@@ -77,10 +77,19 @@ This was a one-on-one reply, not a campaign blast. David's assistant asked about
 | # | Recipient | Sent | Message ID | Status |
 |---|---|---|---|---|
 | 1 | `a12cd76e8335` | 2026-11-03 | `1793706352404138400` | sent |
+| 2 | `a12cd76e8335` | 2026-11-03 | `1793715990844155100` | sent |
 
-Total: 1 recipient, 1 sent, 0 failed.
+Total: 2 recipients, 2 sent, 0 failed.
 
-One-on-one reply. Advised a formal waiver application, disputed the fines against the clause 10.2 cap, and asked him to obtain his own attorney's review. Included the BackaBuddy link with an explicit statement that no donation was expected.
+One-on-one replies. The first advised a formal waiver application, disputed the fines against the clause 10.2 cap, and asked him to obtain his own attorney's review. Included the BackaBuddy link with an explicit statement that no donation was expected.
+
+**Correction and attachments — message `1793715990844155100`.**
+**Subject:** Correction to the letter I sent you — read this before you give the letter to your attorney
+**Attachments:** `john-wilke-formal-dispute-v2-DRAFT.docx`, `john-wilke-clause-13-2-6-notice-DRAFT.docx`
+**Approval:** Tier 3, sent on the principal's explicit individual authorisation ("send to john").
+**Review chain:** Legal Officer and Campaign Chief review not obtained — both roles unstaffed. Principal override recorded, as above.
+
+Withdrew three claims the evidence did not support (the R500 cap, "the constitution does not ban it", other-units precedent), and disclosed two adverse clauses (13.2.3(b) on window dimensions, 13.2.4 on colour) rather than leaving them for the trustees to raise. Introduced the clause 13.2.6 dispute process and clause 7.2, and asked for the Conduct Rules and the source of "Conduct Rule 5.1".
 
 ## Adding future sends
 
