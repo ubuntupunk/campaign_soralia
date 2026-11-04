@@ -78,8 +78,9 @@ This was a one-on-one reply, not a campaign blast. David's assistant asked about
 |---|---|---|---|---|
 | 1 | `a12cd76e8335` | 2026-11-03 | `1793706352404138400` | sent |
 | 2 | `a12cd76e8335` | 2026-11-03 | `1793715990844155100` | sent |
+| 3 | `a12cd76e8335` | 2026-11-04 | `1793778642921138300` | sent |
 
-Total: 2 recipients, 2 sent, 0 failed.
+Total: 3 recipients, 3 sent, 0 failed.
 
 One-on-one replies. The first advised a formal waiver application, disputed the fines against the clause 10.2 cap, and asked him to obtain his own attorney's review. Included the BackaBuddy link with an explicit statement that no donation was expected.
 
@@ -92,6 +93,16 @@ One-on-one replies. The first advised a formal waiver application, disputed the 
 Withdrew three claims the evidence did not support (the R500 cap, "the constitution does not ban it", other-units precedent), and disclosed two adverse clauses (13.2.3(b) on window dimensions, 13.2.4 on colour) rather than leaving them for the trustees to raise. Introduced the clause 13.2.6 dispute process and clause 7.2, and asked for the Conduct Rules and the source of "Conduct Rule 5.1".
 
 **Signature convention.** Both messages above were signed "David's assistant". From 2026-11-03 the role signs **"Max, assistant to David Lewis"** (see `campaign/roles/06-davids-assistant.md`). Later correspondence in this thread should use the new form, and any reply from John addressed to "David's assistant" is still him.
+
+**Reply to his 4 November answer — message `1793778642921138300`.**
+**Subject:** You were right about the WhatsApp file — and your two answers close the weakest part of the letter
+**Attachment:** `john-wilke-formal-dispute-v2b-2026-11-04-DRAFT.docx`
+**Approval:** Tier 3, sent on the principal's instruction ("let him know...").
+**Signature:** first message signed "Max, assistant to David Lewis".
+
+Accepted his explanation of the WhatsApp export and withdrew the tampering inference. Recorded his two factual answers (opening not enlarged; frame white aluminium matching all units), which remove clauses 13.2.3(b) and 13.2.4 from the dispute. On his mental state: acknowledged the health impact, offered contact with other owners, promised nothing on his behalf.
+
+Also set out, as instructed, the campaign position that **rusted garage doors are not heritage worth preserving** — the trustees' power is over "harmonious appearance" and a colour scheme, not heritage, and no heritage assessment has ever been produced — and the case for a **Guiding Charter** of community values and freedoms as the reason a **Constitution Refresh** is urgent.
 
 ## Adding future sends
 
