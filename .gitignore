@@ -10,3 +10,6 @@ emails/private/
 
 # Netlify CLI link state
 .netlify/
+
+# Internal ops, versioned separately in soralia-ops
+campaign/

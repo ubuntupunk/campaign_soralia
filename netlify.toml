@@ -1,13 +1,15 @@
 [build]
-  publish = "."
+  # Only site/ is published. Everything else in this repository — the email
+  # log, the scripts, the function source, and the campaign/ checkout of the
+  # private ops repo — is outside the deploy surface by construction.
+  publish = "site"
 
 [functions]
   directory = "netlify/functions"
   node_bundler = "esbuild"
 
-# Internal material is tracked in this repo but must never be served.
-# Working documents, role definitions, procedures and the send log are
-# version-controlled for review, not published.
+# Belt and braces: these paths are already outside the publish directory.
+# The redirects catch them if publish is ever widened again.
 [[redirects]]
   from = "/campaign/*"
   to = "/404.html"
