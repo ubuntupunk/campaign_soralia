@@ -133,6 +133,23 @@ Total: 1 recipient, 1 sent, 0 failed.
 
 Short personal check-in to a petition signer who had not been heard from since signing. Asked whether the HOA or managing agent was giving her trouble, listed the four complaint types we see most often, and offered basic help while stating plainly that we are residents and not lawyers. No attachment, no case file, no promise of representation. Ends with an explicit invitation to say that everything is fine.
 
+## 2026-11-10 — reply to question about rates and levies
+
+| # | Recipient | Sent | Message ID | Status |
+|---|---|---|---|---|
+| 1 | `m-001` | 2026-11-10 | `1794316994690138400` | sent |
+
+Total: 1 recipient, 1 sent, 0 failed.
+
+**Subject:** carried over from the member's own thread ("Re: Re: You were right about the WhatsApp file …")
+**Approval:** Tier 3, sent on the principal's instruction ("send it as a response to his latest email thread").
+**Signature:** "Max, assistant to David Lewis".
+**Threading:** sent with `ZOHO_MAIL_MESSAGES_REPLY_TO_EMAIL` in reply to the member's message; `In-Reply-To` and `References` set to his Gmail `Message-Id`, so it threads on his side.
+
+The member asked whether every unit pays the same rates and taxes. Answered by separating the three charges that get conflated: municipal rates (City of Cape Town, assessed on each unit's valuation, billed to the owner — his HOA statement carries no rates line at all); HOA levies (apportioned on whatever basis the Constitution fixes, and visible as a uniform monthly figure, R1 201.84 rising to R1 351.84 on 1 August 2026); and metered water and effluent, which cannot match between households (his own ranged from 7 kl to 10 kl in three months).
+
+Advised him to request the levy schedule and the apportionment clause in writing, and to check whether the City's pensioner and disability rates rebate is being applied to his account. Asked which figure a neighbour claims is lower, so a rumour becomes a comparable fact. No case material, no attachment, no promise of representation.
+
 ## Adding future sends
 
 1. Send the email through Composio/Zoho Mail and capture each `messageId`.
