@@ -16,8 +16,6 @@
 //
 // See emails/thank-you-automation.md for setup instructions.
 
-const crypto = require("node:crypto");
-
 const FORM_NAME = "petition";
 
 function dc() {
@@ -30,10 +28,6 @@ function tokenUrl() {
 
 function mailUrl(accountId) {
   return `https://mail.zoho.${dc()}/api/accounts/${accountId}/messages`;
-}
-
-function shortHash(value) {
-  return crypto.createHash("sha256").update(String(value).toLowerCase()).digest("hex").slice(0, 12);
 }
 
 async function getAccessToken() {
@@ -221,7 +215,8 @@ exports.handler = async (event) => {
     const accessToken = await getAccessToken();
     const messageId = await sendThankYou({ name, email, accessToken });
 
-    console.log(`thank-you: sent to ${shortHash(email)} messageId=${messageId ?? "unknown"}`);
+    // No address and no hash of an address: messageId is enough to trace a send.
+    console.log(`thank-you: sent messageId=${messageId ?? "unknown"}`);
 
     return { statusCode: 200, body: "sent" };
   } catch (error) {

@@ -103,7 +103,7 @@ global `fetch`.
 Submit the petition form on the deployed site with an address you control. Then:
 
 - Check the Netlify function log: **Site → Logs → Functions → submission-created**
-- A success looks like `thank-you: sent to <hash> messageId=<id>`
+- A success looks like `thank-you: sent messageId=<id>`
 - Check the Zoho **Sent** folder
 
 To test locally:
@@ -122,7 +122,7 @@ Then submit the form at `http://localhost:8888`.
   which would send duplicate emails. Failures are logged instead.
 - **Filters by form name.** Only `form_name === "petition"` is handled, so
   adding more forms later will not trigger this email.
-- **No recipient addresses in logs.** Logs record a truncated SHA-256 hash.
+- **No recipient addresses in logs.** The function logs the message ID only — not the address, and not a hash of it, since a hash of a known address confirms it rather than hiding it.
 - **Netlify filters spam** before firing the event, so honeypot hits are not
   emailed.
 - **Refresh tokens can go stale.** If Zoho revokes it after a long period of

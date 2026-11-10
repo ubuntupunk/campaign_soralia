@@ -3,17 +3,32 @@
 De-identified record of campaign emails sent to petition signers. No email
 addresses are stored in the repository.
 
-The local, unredacted tracker lives at `emails/private/sent-log.csv` and is
-excluded by `.gitignore`. It holds the name, email address, Netlify unit, and
-message ID for each recipient, and is the source of truth for this table.
+The local, unredacted trackers live in `emails/private/` and are excluded by
+`.gitignore`:
 
-To check whether a given address appears here:
+- `sent-log.csv` — the per-send record (recipient, message ID, timestamp). The
+  source of truth for the tables below.
+- `members.csv` — the mapping from `member_id` to name and address.
+
+## How recipients are referenced
+
+Recipients appear as opaque references (`m-001`, `m-002`, …), not as hashes.
+The reference is assigned once per person and follows them across every send,
+so a reader can see that the same person received three messages without being
+able to tell who that person is.
+
+References were previously the first 12 characters of the SHA-256 of the
+lowercased address. That was withdrawn on 2026-11-10: an unsalted hash of a
+known address is trivially checkable, so it confirmed rather than concealed
+identity. The old values survive in git history and cannot be withdrawn from
+it; they are no longer published.
+
+Resolve a reference with:
 
 ```bash
-printf '%s' 'someone@example.com' | sha256sum | cut -c1-12
+scripts/member-ref.py m-001        # ref -> details (reads emails/private/)
+scripts/member-ref.py --find EMAIL # address -> ref
 ```
-
-Compare the output against the `Recipient` column.
 
 ## 2026-11-02 — CSOS decision in Complaint One
 
@@ -24,10 +39,10 @@ Compare the output against the `Recipient` column.
 
 | # | Recipient | Sent | Message ID | Status |
 |---|---|---|---|---|
-| 1 | `a12cd76e8335` | 2026-11-02 | `1793626209220138400` | sent |
-| 2 | `a0153d3825d3` | 2026-11-02 | `1793626213461138300` | sent |
-| 3 | `5800ee156ef1` | 2026-11-02 | `1793626218205155300` | sent |
-| 4 | `a46b47ffc940` | 2026-11-02 | `1793626222198155100` | sent |
+| 1 | `m-001` | 2026-11-02 | `1793626209220138400` | sent |
+| 2 | `m-002` | 2026-11-02 | `1793626213461138300` | sent |
+| 3 | `m-003` | 2026-11-02 | `1793626218205155300` | sent |
+| 4 | `m-004` | 2026-11-02 | `1793626222198155100` | sent |
 
 Total: 4 recipients, 4 sent, 0 failed.
 
@@ -40,9 +55,9 @@ Total: 4 recipients, 4 sent, 0 failed.
 
 | # | Recipient | Sent | Message ID | Status |
 |---|---|---|---|---|
-| 1 | `a12cd76e8335` | 2026-11-02 | `1793628954505155300` | sent |
-| 2 | `a0153d3825d3` | 2026-11-02 | `1793628955412155300` | sent |
-| 3 | `a46b47ffc940` | 2026-11-02 | `1793629292887138300` | sent |
+| 1 | `m-001` | 2026-11-02 | `1793628954505155300` | sent |
+| 2 | `m-002` | 2026-11-02 | `1793628955412155300` | sent |
+| 3 | `m-004` | 2026-11-02 | `1793629292887138300` | sent |
 
 Total: 3 recipients, 3 sent, 0 failed.
 
@@ -58,11 +73,11 @@ These were sent manually. New signers receive the same email automatically via
 
 | # | Recipient | Sent | Message ID | Status |
 |---|---|---|---|---|
-| 1 | `a12cd76e8335` | 2026-11-02 | `1793649489026138300` | sent |
+| 1 | `m-001` | 2026-11-02 | `1793649489026138300` | sent |
 
 Total: 1 recipient, 1 sent, 0 failed.
 
-This was a one-on-one reply, not a campaign blast. David's assistant asked about his garage situation and penalties.
+This was a one-on-one reply, not a campaign blast. It asked about his garage situation and penalties.
 
 ## 2026-11-03 — John Wilke: strategy reply and draft formal dispute
 
@@ -76,9 +91,9 @@ This was a one-on-one reply, not a campaign blast. David's assistant asked about
 
 | # | Recipient | Sent | Message ID | Status |
 |---|---|---|---|---|
-| 1 | `a12cd76e8335` | 2026-11-03 | `1793706352404138400` | sent |
-| 2 | `a12cd76e8335` | 2026-11-03 | `1793715990844155100` | sent |
-| 3 | `a12cd76e8335` | 2026-11-04 | `1793778642921138300` | sent |
+| 1 | `m-001` | 2026-11-03 | `1793706352404138400` | sent |
+| 2 | `m-001` | 2026-11-03 | `1793715990844155100` | sent |
+| 3 | `m-001` | 2026-11-04 | `1793778642921138300` | sent |
 
 Total: 3 recipients, 3 sent, 0 failed.
 
@@ -108,7 +123,7 @@ Also set out, as instructed, the campaign position that **rusted garage doors ar
 
 | # | Recipient | Sent | Message ID | Status |
 |---|---|---|---|---|
-| 1 | `a0153d3825d3` | 2026-11-10 | `1794305831058155000` | sent |
+| 1 | `m-002` | 2026-11-10 | `1794305831058155000` | sent |
 
 Total: 1 recipient, 1 sent, 0 failed.
 
@@ -123,6 +138,9 @@ Short personal check-in to a petition signer who had not been heard from since s
 1. Send the email through Composio/Zoho Mail and capture each `messageId`.
 2. Append the rows to `emails/private/sent-log.csv` with the recipient's real
    address and the message ID.
-3. Add a de-identified row to this file using the first 12 characters of the
-   SHA-256 hash of the lowercased address.
-4. Commit only this file, never `emails/private/`.
+3. Allocate a `member_id` for the recipient in `emails/private/members.csv`
+   if they do not already have one, and add the send to
+   `emails/private/sent-log.csv`.
+4. Add a row to this file using the `member_id`. Never add an address, a name,
+   or a hash of an address.
+5. Commit only this file, never `emails/private/`.

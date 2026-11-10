@@ -4,7 +4,7 @@ Soralia Village Campaign — email operations for the campaign supporting senior
 
 ## Sending principles
 
-1. **No PII in the repository.** Recipient names and email addresses are never committed. The committed `emails/sent-log.md` uses SHA-256 hashes (first 12 characters). Full details live in `emails/private/sent-log.csv` (gitignored).
+1. **No PII in the repository.** Recipient names and email addresses are never committed. The committed `emails/sent-log.md` refers to people by opaque `member_id` (`m-001`, `m-002`, …). The mapping and the full send record live in `emails/private/` (gitignored). Never commit an address, a name, or a hash of an address — an unsalted hash of a known address confirms it rather than hiding it.
 2. **Every email includes an unsubscribe line.** Reply with "Unsubscribe" or email `info@soraliavillagecampaign.org.za` with "Unsubscribe" in the subject line.
 3. **Every email includes the "not legal advice" disclaimer.** Each account stands on its own facts.
 4. **Every email states the campaign position.** Automatic handovers are ultra vires clauses 7.6.8 and 8.6 of the Constitution.
