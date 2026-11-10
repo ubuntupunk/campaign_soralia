@@ -13,3 +13,6 @@ emails/private/
 
 # Internal ops, versioned separately in soralia-ops
 campaign/
+
+# bd (beads) local database - do not commit
+.beads/
