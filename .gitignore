@@ -16,3 +16,6 @@ campaign/
 
 # bd (beads) local database - do not commit
 .beads/
+
+# Local agent handoff context - not committed to the public repo
+AGENTS.md
