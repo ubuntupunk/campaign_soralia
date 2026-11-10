@@ -104,6 +104,20 @@ Accepted his explanation of the WhatsApp export and withdrew the tampering infer
 
 Also set out, as instructed, the campaign position that **rusted garage doors are not heritage worth preserving** — the trustees' power is over "harmonious appearance" and a colour scheme, not heritage, and no heritage assessment has ever been produced — and the case for a **Guiding Charter** of community values and freedoms as the reason a **Constitution Refresh** is urgent.
 
+## 2026-11-10 — outreach check-in
+
+| # | Recipient | Sent | Message ID | Status |
+|---|---|---|---|---|
+| 1 | `a0153d3825d3` | 2026-11-10 | `1794305831058155000` | sent |
+
+Total: 1 recipient, 1 sent, 0 failed.
+
+**Subject:** Checking in — is there anything the HOA is giving you trouble over?
+**Approval:** Tier 3, sent on the principal's instruction.
+**Signature:** "Max, assistant to David Lewis".
+
+Short personal check-in to a petition signer who had not been heard from since signing. Asked whether the HOA or managing agent was giving her trouble, listed the four complaint types we see most often, and offered basic help while stating plainly that we are residents and not lawyers. No attachment, no case file, no promise of representation. Ends with an explicit invitation to say that everything is fine.
+
 ## Adding future sends
 
 1. Send the email through Composio/Zoho Mail and capture each `messageId`.
