@@ -150,6 +150,31 @@ The member asked whether every unit pays the same rates and taxes. Answered by s
 
 Advised him to request the levy schedule and the apportionment clause in writing, and to check whether the City's pensioner and disability rates rebate is being applied to his account. Asked which figure a neighbour claims is lower, so a rumour becomes a comparable fact. No case material, no attachment, no promise of representation.
 
+## 2026-11-11 — reply on how to keep the converted garage as a room
+
+| # | Recipient | Sent | Message ID | Status |
+|---|---|---|---|---|
+| 1 | `m-001` | 2026-11-11 | `1794410522039138400` | sent |
+
+Total: 1 recipient, 1 sent, 0 failed.
+
+**Subject:** "Re: rates and taxes — how to keep the garage as a room" (set explicitly rather than inheriting the thread's subject).
+**Approval:** Tier 3, approved by the principal ("2" — reply in-thread with an override subject).
+**Signature:** "Max, assistant to David Lewis".
+**Threading:** sent with `ZOHO_MAIL_MESSAGES_REPLY_TO_EMAIL` in reply to the member's message of 11 November, so it threads on his side. CC to the campaign principal.
+
+The member wrote twice about the same thing — on 10 November (unprompted, after coming out of hospital, enclosing photographs of a neighbouring property) and again on 11 November ("do you have any assistance or explanation for me and guide lined to keep my garage as is"). Neither message engaged with the earlier rates-and-levies reply.
+
+Answered that there is no automatic right to keep a converted garage, but that the strongest fact is procedural rather than photographic: the member's written application of 3 August 2026 was received and referred to the trustees (the managing agent said so in writing on 12 October) and no trustee has ever decided it. Silence is not a refusal.
+
+Set out the route in the scheme's own Constitution — clause 4.6.2 is a consent regime rather than a prohibition, 11.1.5 vests authority in the trustees, 13.2 routes requests through the agent for trustee approval, 13.1(e) permits other use by resolution, and 7.2 lets the committee vary or cancel its own decisions. Stated the adverse clauses candidly (13.1(d) harmonious appearance, 13.2.3(b) window dimensions, 13.2.4 colour consent, 11.1.12(e) residing in a garage) rather than leaving them to be discovered.
+
+Recommended sequence: demand a written trustee decision with reasons; ask for retrospective approval or a variation under 7.2; ask for fines and the reinstatement deadline to be suspended pending decision and recovery, on the strength of the treating doctor's letter; serve the clause 13.2.6 notice only when the member is fit, noting the clock starts on service and that an arbitrator may order security for costs; keep paying the undisputed levy, water and effluent so no second front opens over arrears. Also suggested asking the compliance trustee to confirm his favourable view of the frontage in writing, and asking the manager what the trustees actually resolved on 22 October.
+
+Declined to use the photographs: three of the six attachments arrived truncated and two independent readings of the rest contradicted each other, so nothing was put forward as evidence. Warned that "a neighbour was allowed to" is a fairness argument that cuts both ways, and offered to raise any genuine structure projecting into the street as a separate complaint. Asked for the 3 August application and its delivery record, the three enforcement letters, the Conduct Rules (cited by the agent but not held by us), and whether earlier fines were removed and re-imposed.
+
+No case file or third-party personal data was attached or described. The member was again told this is not legal advice, that the campaign has basic paralegal capacity only, and to have his own attorney review anything before signature.
+
 ## Adding future sends
 
 1. Send the email through Composio/Zoho Mail and capture each `messageId`.
