@@ -175,6 +175,31 @@ Declined to use the photographs: three of the six attachments arrived truncated 
 
 No case file or third-party personal data was attached or described. The member was again told this is not legal advice, that the campaign has basic paralegal capacity only, and to have his own attorney review anything before signature.
 
+## 2026-11-11 — correction: the Conduct Rules are clause 11 of the Constitution
+
+| # | Recipient | Sent | Message ID | Status |
+|---|---|---|---|---|
+| 1 | `m-001` | 2026-11-11 | `1794415594050155000` | sent |
+
+Total: 1 recipient, 1 sent, 0 failed.
+
+**Subject:** "Re: Correction — the Conduct Rules are in your Constitution" (set explicitly).
+**Approval:** Tier 3, approved by the principal ("send").
+**Signature:** "Max, assistant to David Lewis".
+**Threading:** `ZOHO_MAIL_MESSAGES_REPLY_TO_EMAIL` in reply to the member's message `1794397651373162300`. CC to the campaign principal.
+
+Corrects the reply sent earlier the same day, which asked the member to supply "the Conduct Rules". There is no separate instrument: clause 11 of the Constitution is headed RULES, 11.1 empowers the committee to enforce rules 11.1.1–11.1.12, and the "Conduct Rule 5.1" cited by the managing agent is clause 11.1.5. The email says plainly that the request was wrong and that the campaign should have known.
+
+Frames the second reading as prompted by the principal after the first email went out, rather than as an unprompted discovery.
+
+Sets out four things the member needs: the text of 11.1.5, including the second sentence ("Only Trustees have the right to amend when required") which reserves the power to permit to the Trustees; the Compliance Portfolio Review in the scheme's own AGM Notice of 13 July 2026, quoted verbatim, which says the Constitution takes precedence over rules made by trustees or agents, that clause 12 requires a 75% special resolution plus local-authority approval for any new rule, that the existing conduct rules "does not align with the constitution", and that "previously warnings and fines were issued for things which were not stated in the constitution"; the review's architectural finding ("No clear standards or limitations. Excessive discretion left to trustees."), which is the answer to 11.1.5 because there is no adopted standard for the alteration to breach, only an unexercised discretion; and clause 11.1.6 ("Appearance from outside"), which is the association's real aesthetic case.
+
+The two-possibilities argument was put without overreach: if 11.1.5 applies the Trustees must decide the application of 3 August 2026, and if some other document applies it had to be adopted by special resolution with the City's approval. The email also states that the alteration is not thereby made lawful.
+
+Told the member to read the earlier email regardless, because the route to keeping the garage is unchanged, and pointed him to the draft documents already in his inbox — the formal letter of dispute and the clause 13.2.6 notice sent as attachments on 3 and 4 November — with the caveat that they predate the correction and are drafts to read rather than sign. Offered the current versions when he is ready.
+
+Asked for nothing. The member is recovering from hospital and has not engaged with the rates-and-levies reply of 2026-11-10. Reiterated the standing advice: rest, keep paying the undisputed levy and water, do not serve the 13.2.6 notice until fit and reviewed by his own attorney. No case file or third-party data attached or described; the "not legal advice" and basic-paralegal-capacity disclaimers are in the footer and body.
+
 ## Adding future sends
 
 1. Send the email through Composio/Zoho Mail and capture each `messageId`.
