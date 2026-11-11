@@ -6,9 +6,12 @@ addresses are stored in the repository.
 The local, unredacted trackers live in `emails/private/` and are excluded by
 `.gitignore`:
 
-- `sent-log.csv` — the per-send record (recipient, message ID, timestamp). The
-  source of truth for the tables below.
+- `sent-log.csv` — the per-send record for petition signers (recipient, message
+  ID, timestamp). The source of truth for the tables below.
 - `members.csv` — the mapping from `member_id` to name and address.
+- `outreach-log.csv` — sends to people who are not petition signers (trustees,
+  office-holders, contractors). Kept separate so a trustee never appears in a
+  member's row.
 
 ## How recipients are referenced
 
@@ -199,6 +202,33 @@ The two-possibilities argument was put without overreach: if 11.1.5 applies the 
 Told the member to read the earlier email regardless, because the route to keeping the garage is unchanged, and pointed him to the draft documents already in his inbox — the formal letter of dispute and the clause 13.2.6 notice sent as attachments on 3 and 4 November — with the caveat that they predate the correction and are drafts to read rather than sign. Offered the current versions when he is ready.
 
 Asked for nothing. The member is recovering from hospital and has not engaged with the rates-and-levies reply of 2026-11-10. Reiterated the standing advice: rest, keep paying the undisputed levy and water, do not serve the 13.2.6 notice until fit and reviewed by his own attorney. No case file or third-party data attached or described; the "not legal advice" and basic-paralegal-capacity disclaimers are in the footer and body.
+
+## 2026-11-11 — approach to the compliance trustee
+
+| # | Recipient | Sent | Message ID | Status |
+|---|---|---|---|---|
+| 1 | Compliance portfolio (trustee) | 2026-11-11 | `1794418647444155000` | sent |
+
+Total: 1 recipient, 1 sent, 0 failed.
+
+**Subject:** "Soralia Village Community Action — Trafalgar compliance, and a request on behalf of a member"
+**Approval:** Tier 3, approved by the principal ("confirm", "new message with cc to me").
+**Signature:** "Max, assistant to David Lewis / Community Outreach".
+**Channel:** new message, not a threaded reply. CC to the campaign principal.
+
+First contact with a serving trustee, written under the campaign's own name. Opens with Soralia Village Community Action and Stop Automatic Handovers, and states the campaign position that automatic handovers are ultra vires clauses 7.6.8 and 8.6.
+
+Three parts, in the order the principal set:
+
+1. **Compliance news.** The principal's own statement this week shows the receipting fees withdrawn and the account rectified, following the CSOS adjudication of 2 November 2026. The email records that the order binds only that account and is not put any higher.
+2. **A member's fees, and only his fees.** `m-001`'s statement carries the same receipting fee and arrears-review charges. The email sets out the figures, states the campaign's view that they are ultra vires the Constitution and the Debt Collectors Act 114 of 1998, and says expressly that this is the full extent of what the campaign can properly raise about the account. No correspondence between the member and the managing agent is described, quoted or characterised.
+3. **A personal request.** That the trustee revert to the member directly with his own view of the front of the house, on the basis that the member is unwell and it would lift him. No merits argued, no decision sought, and it is put to him that one trustee cannot decide the matter alone.
+
+The member's medical situation is reduced to "not well — he has just come out of hospital". No diagnosis, no disability disclosure, no detail from the case file. Nothing from the case file was attached or quoted.
+
+Footer is the campaign identity and position line rather than the petition unsubscribe notice, because the recipient is not a subscriber — a false "you signed the petition" line would be worse than none. The "not legal advice" disclaimer is retained.
+
+**Open point for the campaign:** we are naming a member and his fee figures to a trustee on the strength of his request for help. That is defensible but informal. A member application form recording consent to act, and terms covering what may be disclosed to whom, would put it on a proper footing.
 
 ## Adding future sends
 
