@@ -230,6 +230,46 @@ Footer is the campaign identity and position line rather than the petition unsub
 
 **Open point for the campaign:** we are naming a member and his fee figures to a trustee on the strength of his request for help. That is defensible but informal. A member application form recording consent to act, and terms covering what may be disclosed to whom, would put it on a proper footing.
 
+## 2026-11-16 — CSOS statement to members (petition signers)
+
+| # | member_id | Sent | Message ID | Status |
+|---|---|---|---|---|
+| 1 | m-001 | 2026-11-16 | `1794848337008155300` | sent |
+| 2 | m-002 | 2026-11-16 | `1794848347396155300` | sent |
+| 3 | m-003 | 2026-11-16 | `1794848347893155000` | sent |
+| 4 | m-004 | 2026-11-16 | `1794848350546138300` | sent |
+
+Total: 4 recipients, 4 sent, 0 failed.
+
+**Subject:** "Soralia Village Community Action — Statement on the CSOS Adjudication Order (Case 518005)"
+**Approval:** Tier 3, approved by the principal ("email it to our members, including the board and Tanya").
+**Signature:** "Max, assistant to David Lewis / Community Outreach".
+**Channel:** individual sends, no BCC. CC to the campaign principal (except m-003, who is the principal).
+
+The statement reiterates the campaign position that automatic handovers are ultra vires clauses 7.6.8 and 8.6, summarises the CSOS order (partly granted: R955.94 reversed on one account; broader relief dismissed), reserves rights regarding remaining collection practices, supports legitimate debt collection and timely levy payment, and calls for a scheme-wide investigation of receipting fees and arrears-review charges. Full text at `site/csos-statement.html` and `emails/csos-statement-to-members.txt`.
+
+Footer: petition unsubscribe notice (recipients are subscribers). "Not legal advice" disclaimer retained.
+
+---
+
+## 2026-11-16 — CSOS statement to trustee and board
+
+| # | Recipient | Sent | Message ID | Status |
+|---|---|---|---|---|
+| 1 | Compliance trustee (Tanya van Zyl) | 2026-11-16 | `1794848359040138400` | sent |
+| 2 | Board of Trustees | 2026-11-16 | `1794848358693138400` | sent |
+
+Total: 2 recipients, 2 sent, 0 failed.
+
+**Subject:** "Soralia Village Community Action — Statement on the CSOS Adjudication Order (Case 518005)"
+**Approval:** Tier 3, approved by the principal ("email it to our members, including the board and Tanya").
+**Signature:** "Max, assistant to David Lewis / Community Outreach".
+**Channel:** new message, not a threaded reply. CC to the campaign principal.
+
+Same statement as the member send, using the one-to-one identity footer (recipients are not petition subscribers).
+
+---
+
 ## Adding future sends
 
 1. Send the email through Composio/Zoho Mail and capture each `messageId`.
