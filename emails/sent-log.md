@@ -256,10 +256,10 @@ Footer: petition unsubscribe notice (recipients are subscribers). "Not legal adv
 
 | # | Recipient | Sent | Message ID | Status |
 |---|---|---|---|---|
-| 1 | Compliance trustee (Tanya van Zyl) | 2026-11-16 | `1794848359040138400` | sent |
-| 2 | Board of Trustees | 2026-11-16 | `1794848358693138400` | sent |
+| 1 | Compliance trustee (Tanya van Zyl) | 2026-11-16 | `1794848359040138400` | sent, delivered |
+| 2 | Board of Trustees | 2026-11-16 | `1794848358693138400` | sent — **bounced**, not delivered |
 
-Total: 2 recipients, 2 sent, 0 failed.
+Total: 2 recipients, 2 send attempts, 1 delivered.
 
 **Subject:** "Soralia Village Community Action — Statement on the CSOS Adjudication Order (Case 518005)"
 **Approval:** Tier 3, approved by the principal ("email it to our members, including the board and Tanya").
@@ -267,6 +267,8 @@ Total: 2 recipients, 2 sent, 0 failed.
 **Channel:** new message, not a threaded reply. CC to the campaign principal.
 
 Same statement as the member send, using the one-to-one identity footer (recipients are not petition subscribers).
+
+**Correction (principal confirmed):** the board copy went to `auto@trafalgar.co.za`, which bounces — it is the Gmail sender header on the HOA's notice, not a board mailbox. The Board's own 16 Nov 2026 notice names `tanyav@trafalgar.co.za` as the contact for "the Board of Trustee or the Managing Agent", and that copy was delivered. Statement drafts and the site now use only that address. See `AGENTS.md` → "Board contact".
 
 ---
 

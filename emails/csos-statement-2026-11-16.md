@@ -43,7 +43,7 @@ We support legitimate debt collection practices that are aimed at restoring our 
 
 5. Call for an investigation across the scheme
 
-We call on the Board of Trustees and the Managing Agent to investigate receipting fees, arrears-review charges, and automatic handovers across the entire scheme — not only on the account that was the subject of Case 518005. Members should check their own statements for similar charges and query anything unclear in writing, directed to Tanya van Zyl at tanyav@trafalgar.co.za or to the Board of Trustees.
+We call on the Board of Trustees and the Managing Agent to investigate receipting fees, arrears-review charges, and automatic handovers across the entire scheme — not only on the account that was the subject of Case 518005. Members should check their own statements for similar charges and query anything unclear in writing to Tanya van Zyl at tanyav@trafalgar.co.za — the address the Board published in its 16 November 2026 notice for board and managing-agent queries.
 
 If the Board's review concludes that these charges were imposed without constitutional or statutory authority, we expect the same relief to be extended to every affected account, not only to the one account the CSOS order reached.
 
