@@ -16,11 +16,11 @@ automatic handovers of arrears accounts for collection are ultra vires clauses 7
 
 On 2 November 2026 the Community Schemes Ombud Service (CSOS) issued an adjudication order in Case 518005. The application was partly granted: the HOA was directed to reverse receipting fees and arrears-account review fees of R955.94 in total, together with related interest, on that owner's levy account. The adjudicator found these charges were not substantiated under the applicable debt collectors' tariff, and that resolutions adopted on 15 July 2026 could not retrospectively authorise earlier charges.
 
-The rest of the relief sought was dismissed. That included a prohibition on collection action and an order against the Managing Agent's debt collection practices. No order as to costs was made.
+The rest of the relief sought was dismissed. That included the prohibition we sought on the **unlawful practices** — automatic handovers which are ultra vires our Constitution, and the opportunistic receipting fees which are ultra vires the Debt Collectors Act. No order as to costs was made.
 
 We note two things about the HOA's characterisation in its member notice of 16 November 2026.
 
-First, the dismissal of the broader relief does not validate the practices challenged. The adjudicator declined to rule on the Managing Agent's practices across other schemes because that falls outside what CSOS can grant in this proceeding. The order does not decide whether automatic handovers are lawful in general, and it does not decide whether receipting fees or arrears-review charges are lawful on any account other than the one before it.
+First, the dismissal of that relief does not validate the practices challenged, and it is not a finding that collection action may proceed unchecked. What we sought was a prohibition on the unlawful circumvention of due process and on action contrary to our Constitution and the Debt Collectors Act — not a prohibition on legitimate debt collection. The adjudicator declined to rule on the Managing Agent's practices across other schemes because that falls outside what CSOS can grant in this proceeding. The order does not decide whether automatic handovers are lawful in general, and it does not decide whether receipting fees or arrears-review charges are lawful on any account other than the one before it.
 
 Second, the order binds only the account in Complaint One — Mr David Lewis's account. It is persuasive, not binding, for every other owner. Each account stands on its own facts.
 
