@@ -285,6 +285,16 @@ Logged retrospectively on 2026-11-19 after a check of Netlify form submissions. 
 
 ---
 
+## 2026-11-19 — corrected links note to new signer (m-005)
+
+| # | member_id | Sent | Message ID | Status |
+|---|---|---|---|---|
+| 1 | m-005 | 2026-11-19 | `1795091013550155300` | sent |
+
+One note to the member's single inbox, addressed to both names on the two petition submissions. It corrects the dead links in the automated welcome and offers help. Verified in Zoho Sent with `mailDeliveryStatus: success`. Sent individually, no BCC; unsubscribe wording and "not legal advice" disclaimer included; signed "Max, assistant to David Lewis". The automated welcome text was left unchanged.
+
+---
+
 ## Adding future sends
 
 1. Send the email through Composio/Zoho Mail and capture each `messageId`.
