@@ -272,6 +272,19 @@ Same statement as the member send, using the one-to-one identity footer (recipie
 
 ---
 
+## 2026-11-19 — automatic thank-you to new signer (m-005)
+
+| # | member_id | Sent | Message ID | Status |
+|---|---|---|---|---|
+| 1 | m-005 | 2026-11-19 | `1795072623825138400` | sent |
+| 2 | m-005 | 2026-11-19 | `1795072645295155300` | sent |
+
+Total: 2 automated sends to one new subscriber address. The Netlify petition form received two submissions 22 seconds apart from that address, under two name variants; both triggered the `submission-created` function, and both appear as delivered in Zoho Sent.
+
+Logged retrospectively on 2026-11-19 after a check of Netlify form submissions. The function logs only the message ID to the Netlify function log, not to our CSVs, so automated sends need to be backfilled here from Zoho.
+
+---
+
 ## Adding future sends
 
 1. Send the email through Composio/Zoho Mail and capture each `messageId`.

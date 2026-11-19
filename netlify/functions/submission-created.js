@@ -75,7 +75,7 @@ function greeting(name) {
 }
 
 function thankYouHtml(name) {
-  const site = "https://soraliacampaign.org.za";
+  const site = "https://soraliavillagecampaign.org.za";
   const mail = "info@soraliavillagecampaign.org.za";
 
   const h2 = "color:#1e2d4a;font-size:19px;line-height:1.3;margin:28px 0 10px;";
@@ -133,7 +133,7 @@ function thankYouHtml(name) {
 
 <h2 style="${h2}">Stay in touch</h2>
 <p style="${p}">
-Website: <a href="${site}" style="${link}">soraliacampaign.org.za</a><br>
+Website: <a href="${site}" style="${link}">soraliavillagecampaign.org.za</a><br>
 Email: <a href="mailto:${mail}" style="${link}">${mail}</a><br>
 Background: <a href="${site}/why.html" style="${link}">why this complaint was made</a>
 </p>

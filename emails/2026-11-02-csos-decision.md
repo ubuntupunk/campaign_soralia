@@ -42,13 +42,13 @@ Clause 8.6 says the committee "may" hand over a debt outstanding for more than 3
 
 **Read the order and statement**
 
-https://soraliacampaign.org.za/csos-order.html
+https://soraliavillagecampaign.org.za/csos-order.html
 
 Direct PDF:
-https://soraliacampaign.org.za/csos-adjudication-order-518005.pdf
+https://soraliavillagecampaign.org.za/csos-adjudication-order-518005.pdf
 
 Why I approached the CSOS:
-https://soraliacampaign.org.za/why.html
+https://soraliavillagecampaign.org.za/why.html
 
 Thank you for standing with your neighbours.
 
