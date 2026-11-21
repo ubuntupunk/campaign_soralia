@@ -19,3 +19,6 @@ campaign/
 
 # Local agent handoff context - not committed to the public repo
 AGENTS.md
+
+# LibreOffice lock files (documents may still be open locally)
+.~lock.*#
