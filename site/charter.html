@@ -28,23 +28,45 @@
     <header class="site-header">
         <div class="header-container">
             <a href="/" class="logo">Soralia VC</a>
-            <button class="burger" aria-label="Toggle menu" aria-expanded="false">
+            <button class="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
-            <nav class="nav-links" aria-hidden="true">
-                <a href="/#about">About</a>
-                <a href="/#position">Position</a>
-                <a href="/csos-order.html">CSOS Order</a>
-                <a href="/csos-order-518015.html">Complaint Two</a>
-                <a href="/csos-518015-statement.html">518015 Statement</a>
-                <a href="/charter.html">Charter</a>
-                <a href="/article.html">Article</a>
-                <a href="/governance-article.html">Governance</a>
-                <a href="/why.html">Why</a>
-                <a href="/#rights">Rights</a>
-                <a href="/#contact">Contact</a>
+            <nav class="nav-links" id="site-nav">
+                <div class="nav-group">
+                    <button class="nav-trigger" type="button" aria-expanded="false" aria-controls="nav-cases">Cases <span class="nav-chevron" aria-hidden="true"></span></button>
+                    <div class="nav-panel" id="nav-cases">
+                        <div class="nav-panel-inner">
+                            <a href="/csos-order.html">CSOS Order</a>
+                            <a href="/csos-order-518015.html">Complaint Two <small>518015</small></a>
+                            <a href="/csos-518015-statement.html">518015 Statement</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-group">
+                    <button class="nav-trigger" type="button" aria-expanded="false" aria-controls="nav-documents">Documents <span class="nav-chevron" aria-hidden="true"></span></button>
+                    <div class="nav-panel" id="nav-documents">
+                        <div class="nav-panel-inner">
+                            <a href="/charter.html" aria-current="page">Charter</a>
+                            <a href="/article.html">Article</a>
+                            <a href="/governance-article.html">Governance</a>
+                            <a href="/draft-resolution-clause-5-5.docx" download>Draft motion</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-group">
+                    <button class="nav-trigger" type="button" aria-expanded="false" aria-controls="nav-campaign">Campaign <span class="nav-chevron" aria-hidden="true"></span></button>
+                    <div class="nav-panel" id="nav-campaign">
+                        <div class="nav-panel-inner">
+                            <a href="/#about">About</a>
+                            <a href="/#position">Position</a>
+                            <a href="/why.html">Why</a>
+                            <a href="/#rights">Rights</a>
+                            <a href="/#contact">Contact</a>
+                        </div>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
