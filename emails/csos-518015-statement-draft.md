@@ -74,8 +74,6 @@ We support legitimate debt collection aimed at restoring the village's finances,
 
 This statement is issued by Soralia Village Community Action for discussion among members and supporters. It is not legal advice. The CSOS order itself is the authoritative text, and members should obtain their own legal advice before acting on any of it.
 
-**Max, assistant to David Lewis**  
-Community Outreach  
-Soralia Village Community Action  
+**Soralia Village Community Action**  
 info@soraliavillagecampaign.org.za  
 https://soraliavillagecampaign.org.za/
