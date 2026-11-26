@@ -17,9 +17,9 @@ SITE = pathlib.Path(__file__).resolve().parent.parent / "site"
 
 GROUPS = [
     ("cases", "Cases", [
-        ("/csos-order.html", "CSOS Order", "csos-order.html"),
-        ("/csos-order-518015.html", "Complaint Two <small>518015</small>", "csos-order-518015.html"),
-        ("/csos-518015-statement.html", "518015 Statement", "csos-518015-statement.html"),
+        ("/csos-order-518005.html", "CSOS 518005", "csos-order-518005.html"),
+        ("/csos-order-518015.html", "CSOS 518015", "csos-order-518015.html"),
+        ("/csos-statement-518015.html", "Statement on 518015", "csos-statement-518015.html"),
     ]),
     ("documents", "Documents", [
         ("/charter.html", "Charter", "charter.html"),

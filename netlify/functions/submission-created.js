@@ -109,7 +109,7 @@ function thankYouHtml(name) {
 <h2 style="${h2}">What happens next</h2>
 <p style="${p}">Complaint One to the Community Schemes Ombud Service (CSOS) has been decided. The adjudicator ordered the HOA to reverse the &ldquo;receipting fees&rdquo; and &ldquo;arrears account review&rdquo; charges on the account concerned, and to recalculate the interest.</p>
 <p style="${p}">Complaint Two is still running. We will write to you when there is news.</p>
-<p style="${p}"><a href="${site}/csos-order.html" style="${link}">Read the order and the campaign statement &rarr;</a></p>
+<p style="${p}"><a href="${site}/csos-order-518005.html" style="${link}">Read the order and the campaign statement &rarr;</a></p>
 
 <h2 style="${h2}">How you can help</h2>
 <ul style="margin:0 0 14px;padding-left:20px">

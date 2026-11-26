@@ -34,6 +34,24 @@
   status = 404
   force = true
 
+# Case-numbered canonical URLs. The first order and statement were originally
+# filed without a case number, and the 518015 statement used a different word
+# order. Keep links in already-sent emails and other inbound links working.
+[[redirects]]
+  from = "/csos-order.html"
+  to = "/csos-order-518005.html"
+  status = 301
+
+[[redirects]]
+  from = "/csos-statement.html"
+  to = "/csos-statement-518005.html"
+  status = 301
+
+[[redirects]]
+  from = "/csos-518015-statement.html"
+  to = "/csos-statement-518015.html"
+  status = 301
+
 [[headers]]
   for = "/*"
   [headers.values]
