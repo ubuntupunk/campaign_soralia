@@ -295,6 +295,24 @@ One note to the member's single inbox, addressed to both names on the two petiti
 
 ---
 
+## 2026-11-26 — statement on CSOS 518015 (interim committee and fresh election)
+
+| # | member_id | Sent | Message ID | Status |
+|---|---|---|---|---|
+| 1 | m-001 | 2026-11-26 | `1795672593397138400` | sent, delivered |
+| 2 | m-002 | 2026-11-26 | `1795672610921138300` | sent, delivered |
+| 3 | m-003 | 2026-11-26 | `1795672620563155300` | sent, delivered |
+| 4 | m-004 | 2026-11-26 | `1795672629393155300` | sent, delivered |
+| 5 | m-005 | 2026-11-26 | `1795672637466138400` | sent, delivered |
+
+Total: 5 recipients, 5 individual sends, 5 delivered. Sent individually, never BCC. All five verified in Zoho Sent with `mailDeliveryStatus: success`. The send is a summary of the published statement at `/csos-518015-statement.html`, with unsubscribe wording and a "not legal advice" disclaimer, signed "Max, assistant to David Lewis" (the statement page itself carries the institutional signature). One send to m-005's single inbox.
+
+**Approval:** the principal replied "send".
+**Subject:** "Soralia Village Community Action — Statement on CSOS 518015: the interim committee and the fresh election".
+**Channel:** new HTML messages via Zoho Mail from `info@soraliavillagecampaign.org.za`, not threaded replies. No attachments; the statement and draft motion are linked in the body.
+
+---
+
 ## Adding future sends
 
 1. Send the email through Composio/Zoho Mail and capture each `messageId`.
