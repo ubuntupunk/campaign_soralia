@@ -9,7 +9,7 @@ The Community Schemes Ombud Service has ordered a fresh general meeting for Sora
 
 Prayers 1 to 5 of the complaint were granted; prayers 6 to 9 were refused; there is no order as to costs. The adjudicator declared that the electronic voting system used at the annual general meeting of 13 July 2026 was not authorised by clause 5.6 of our Constitution, which prescribes voting by show of hands, and that all resolutions passed by electronic ballot at that meeting are procedurally defective and of no force and effect pending confirmation at a properly conducted meeting (paragraph 7.1).
 
-The HOA is directed to convene a fresh general meeting within 30 days of delivery of the order, on not less than 14 days' written notice under clause 5.4, conducted by show of hands under clause 5.6, to reconsider **all** resolutions purportedly passed on 13 July 2026 — including the determination of the number of trustees and the election of the committee (paragraph 7.2).
+The HOA is directed to convene a fresh general meeting within 30 days of delivery of the order, on not less than 14 days' written notice under clause 5.4, conducted by show of hands under clause 5.6, to reconsider **all** resolutions purportedly passed on 13 July 2026 — **including the determination of the number of trustees and the election of the committee (paragraph 7.2)**.
 
 We accept, as the order expressly provides, that the trustees declared elected on 13 July remain in office until that meeting, and that nothing in the order invalidates any act of the committee taken in the interim (paragraph 7.11.1). That is a holding arrangement, not a new mandate.
 
