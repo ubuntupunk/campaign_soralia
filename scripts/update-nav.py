@@ -45,11 +45,22 @@ def build_nav(indent: str, current: str | None) -> str:
     lines = [f'{indent}<nav class="nav-links" id="site-nav">']
     for key, label, links in GROUPS:
         lines.append(f'{indent}    <div class="nav-group">')
-        lines.append(
-            f'{indent}        <button class="nav-trigger" type="button" '
-            f'aria-expanded="false" aria-controls="nav-{key}">'
-            f'{label} <span class="nav-chevron" aria-hidden="true"></span></button>'
-        )
+        if key == "campaign":
+            # Desktop shows a burger icon; the mobile sheet keeps the text label.
+            lines.append(
+                f'{indent}        <button class="nav-trigger nav-trigger-burger" type="button" '
+                f'aria-label="Campaign menu" aria-expanded="false" aria-controls="nav-{key}">'
+                f'<span class="nav-trigger-label">{label}</span>'
+                f'<span class="nav-burger-icon" aria-hidden="true">'
+                f'<span></span><span></span><span></span></span>'
+                f'<span class="nav-chevron" aria-hidden="true"></span></button>'
+            )
+        else:
+            lines.append(
+                f'{indent}        <button class="nav-trigger" type="button" '
+                f'aria-expanded="false" aria-controls="nav-{key}">'
+                f'{label} <span class="nav-chevron" aria-hidden="true"></span></button>'
+            )
         lines.append(f'{indent}        <div class="nav-panel" id="nav-{key}">')
         lines.append(f'{indent}            <div class="nav-panel-inner">')
         for href, text, page in links:
