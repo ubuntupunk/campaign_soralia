@@ -474,6 +474,35 @@ h1 {
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
+.support-cta {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.35);
+    text-align: center;
+}
+
+.support-cta p {
+    margin-bottom: 1rem;
+}
+
+.support-button {
+    display: inline-block;
+    padding: 0.8rem 1.4rem;
+    background: white;
+    color: var(--navy);
+    border: 2px solid white;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.support-button:hover {
+    background: var(--cream);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
 .hashtag {
     font-size: 1.2rem;
     font-weight: 700;
@@ -533,8 +562,9 @@ footer {
 }
 
 footer a {
-    color: var(--orange);
+    color: var(--orange-on-navy);
     text-decoration: none;
+    overflow-wrap: anywhere;
 }
 
 /* Page Sections */
@@ -607,6 +637,7 @@ footer a {
     color: var(--orange);
     text-decoration: none;
     font-weight: 600;
+    overflow-wrap: anywhere;
 }
 
 /* Form */
@@ -845,4 +876,17 @@ footer a {
 .success-button:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.success-content .support-followup {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.support-followup a {
+    color: var(--navy);
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }

@@ -33,6 +33,7 @@ GROUPS = [
         ("/why.html", "Why", "why.html"),
         ("/#rights", "Rights", None),
         ("/#contact", "Contact", None),
+        ("https://backabuddy.co.za/campaign/stop-soralia-village-automatic-handovers", "Support via BackaBuddy", None),
     ]),
 ]
 
@@ -54,7 +55,8 @@ def build_nav(indent: str, current: str | None) -> str:
         for href, text, page in links:
             active = ' aria-current="page"' if page and page == current else ""
             download = " download" if href.endswith(".docx") else ""
-            lines.append(f'{indent}                <a href="{href}"{active}{download}>{text}</a>')
+            external = ' target="_blank" rel="noopener noreferrer"' if href.startswith("http") else ""
+            lines.append(f'{indent}                <a href="{href}"{active}{download}{external}>{text}</a>')
         lines.append(f'{indent}            </div>')
         lines.append(f'{indent}        </div>')
         lines.append(f'{indent}    </div>')
