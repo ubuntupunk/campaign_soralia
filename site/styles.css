@@ -4,7 +4,7 @@
     --orange-on-navy: #e8875a;
     --cream: #f5f0e8;
     --dark: #1a1a1a;
-    --header-height: 74px;
+    --header-height: 68px;
 }
 
 * {
@@ -29,7 +29,7 @@ body {
     right: 0;
     background: var(--navy);
     z-index: 1000;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
 }
 
 .header-container {
@@ -41,14 +41,25 @@ body {
 }
 
 .logo {
-    color: white;
-    font-size: 1.25rem;
-    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
     text-decoration: none;
 }
 
-.logo:hover {
-    color: var(--orange-on-navy);
+.logo img {
+    display: block;
+    height: 52px;
+    width: auto;
+    transition: opacity 0.2s;
+}
+
+.logo:hover img {
+    opacity: 0.85;
+}
+
+.logo:focus-visible {
+    outline: 2px solid var(--orange-on-navy);
+    outline-offset: 4px;
 }
 
 .burger {
@@ -209,7 +220,11 @@ body {
 
 @media (max-width: 768px) {
     :root {
-        --header-height: 64px;
+        --header-height: 60px;
+    }
+
+    .logo img {
+        height: 44px;
     }
 
     .burger {
