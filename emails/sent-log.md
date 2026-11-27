@@ -313,6 +313,25 @@ Total: 5 recipients, 5 individual sends, 5 delivered. Sent individually, never B
 
 ---
 
+## 2026-12-01 — article: Communities, Not Debt Collection Schemes (SCHEDULED)
+
+**Subject:** "Soralia Village Community Action — Communities, Not Debt Collection Schemes"
+**From:** `info@soraliavillagecampaign.org.za`
+**Scheduled:** 2026-11-27 for 2026-12-01 09:00 SAST (`Africa/Johannesburg`)
+**Audience:** all five petition signers (`m-001`–`m-005`)
+
+| # | member_id | Scheduled for | Message ID | Status |
+|---|---|---|---|---|
+| 1 | m-001 | 2026-12-01 09:00 SAST | `1795769925055155300` | scheduled |
+| 2 | m-002 | 2026-12-01 09:00 SAST | `1795769935830138300` | scheduled |
+| 3 | m-003 | 2026-12-01 09:00 SAST | `1795769936215155000` | scheduled |
+| 4 | m-004 | 2026-12-01 09:00 SAST | `1795769936211155001` | scheduled |
+| 5 | m-005 | 2026-12-01 09:00 SAST | `1795769936422155000` | scheduled |
+
+Scheduled as five individual HTML messages (never BCC), with unsubscribe wording and a "not legal advice" disclaimer, signed "Max, assistant to David Lewis". The private unredacted record is `emails/private/scheduled-sends.csv`. **Not yet sent:** replace "scheduled" with delivered status and move the rows into `emails/private/sent-log.csv` only after checking Zoho Sent on or after 1 Dec.
+
+---
+
 ## Adding future sends
 
 1. Send the email through Composio/Zoho Mail and capture each `messageId`.
