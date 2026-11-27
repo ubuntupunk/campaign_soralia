@@ -746,6 +746,17 @@ footer a {
     text-align: left;
 }
 
+.article-hero {
+    margin: -1rem 0 2.5rem;
+}
+
+.article-hero img {
+    border-radius: 12px;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
 .article-body {
     font-family: 'Newsreader', Georgia, serif;
     font-size: 1.2rem;
@@ -878,6 +889,10 @@ footer a {
 @media (max-width: 600px) {
     .article-page {
         padding: 2rem 1rem;
+    }
+
+    .article-hero {
+        margin: 0 0 2rem;
     }
 
     .article-body {
