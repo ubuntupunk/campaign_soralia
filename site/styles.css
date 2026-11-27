@@ -681,6 +681,63 @@ footer a {
     margin-bottom: 1rem;
 }
 
+#rights .right-card {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+#rights .right-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+    transition: transform 0.4s ease;
+}
+
+#rights .right-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.2) 0%,
+        rgba(255, 255, 255, 0.68) 55%,
+        rgba(255, 255, 255, 0.88) 100%
+    );
+    pointer-events: none;
+}
+
+#rights .right-card > * {
+    position: relative;
+    z-index: 1;
+}
+
+#rights .right-card:nth-child(1)::before {
+    background-image: url("/assets/process.png");
+    background-position: center 35%;
+}
+
+#rights .right-card:nth-child(2)::before {
+    background-image: url("/assets/assessment.png");
+    background-position: center 42%;
+}
+
+#rights .right-card:nth-child(3)::before {
+    background-image: url("/assets/dignity.png");
+    background-position: center 30%;
+}
+
+#rights .right-card:hover::before {
+    transform: scale(1.05);
+}
+
 .contact-info {
     background: white;
     padding: 2rem;
