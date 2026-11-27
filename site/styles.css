@@ -768,13 +768,15 @@ footer a {
     text-align: left;
 }
 
-.article-body > p:first-child {
+.article-body > p:first-child,
+.article-body > aside:first-child + p {
     font-size: 1.45rem;
     line-height: 1.65;
     margin-bottom: 2rem;
 }
 
-.article-body > p:first-child::first-letter {
+.article-body > p:first-child::first-letter,
+.article-body > aside:first-child + p::first-letter {
     color: var(--navy);
     float: left;
     font-family: 'Newsreader', Georgia, serif;
@@ -916,12 +918,14 @@ footer a {
         font-size: 1.1rem;
     }
 
-    .article-body > p:first-child {
+    .article-body > p:first-child,
+    .article-body > aside:first-child + p {
         font-size: 1.3rem;
         line-height: 1.6;
     }
 
-    .article-body > p:first-child::first-letter {
+    .article-body > p:first-child::first-letter,
+    .article-body > aside:first-child + p::first-letter {
         font-size: 4.8em;
     }
 
