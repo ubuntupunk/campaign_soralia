@@ -1,6 +1,6 @@
 # Communities, Not Debt Collection Schemes
 
-_Draft article for review — do not publish before the editorial notes at the end are resolved and an attorney has checked the legal references. Working title: "Communities, Not Debt Collection Schemes: Constitution, democracy and the work of rebuilding Soralia Village". Suggested URL if published: `/communities-not-debts.html`._
+_Published at `/communities-not-debts.html` on 27 Nov 2026. This file is retained as the source draft; the editorial notes below record the corrections made before publication. The principal confirmed on 27 Nov 2026 that attorney review is complete._
 
 A homeowners' association is a community of people and households. It is not a debt collection scheme with gardens and security gates attached. That distinction is not sentiment; it is the legal and constitutional character of the body we live in. Soralia Village is a common-law homeowners' association, not a body corporate. We are organised around a certified Constitution, and that Constitution is itself dependent on the laws of the Republic of South Africa and the City of Cape Town's bylaws. When a managing agent treats the levy roll primarily as a revenue pipeline, and when trustees allow that to happen, the association stops behaving like the community its members agreed to join.
 
@@ -58,7 +58,7 @@ The trustees declared elected on 13 July remain in office until that meeting, an
 
 We will do the utmost to move the community forward onto a better footing. That means a village in which accounts are dealt with on their merits, where the vulnerable are protected by procedure rather than exposed by it, and where the big debt is tackled honestly instead of being passed down to the households least able to carry it. Read the draft resolution, attend the fresh meeting, pay your levy where you can, and hold us to these commitments.
 
-_Not legal advice. This article is published by Soralia Village Community Action for discussion. An attorney experienced in community schemes should review it before it is relied on or adopted. Where anything conflicts, the certified Constitution and the law prevail._
+_Not legal advice. This article is published by Soralia Village Community Action for discussion. Where anything conflicts, the certified Constitution and the law prevail._
 
 **Soralia Village Community Action**  
 info@soraliavillagecampaign.org.za  
@@ -74,7 +74,7 @@ https://soraliavillagecampaign.org.za/
 
 3. **"Our Chair handed governance over to the administrators" — narrowed.** The verified facts are that Trafalgar's representative chaired the AGM and prepared and delivered the HOA's response (518015, para 2.3), and that the adjudicator held agents chairing meetings are bound by the Constitution (para 6.5). There is no document in our records establishing a formal, deliberate handover of governance by the Chair. The article states the verified facts; if you have the source for the stronger claim, add it before publication.
 
-4. **"Administrators were found to have circumvented our own rules" — narrowed.** Case 518005 found the association had not demonstrated that the disputed fees were imposed in accordance with its own handover requirements; it did not grant the blanket relief sought, and Trafalgar was not a party to Case 518015. The clear finding of departure from the Constitution is in 518015: electronic voting instead of the clause 5.6 show of hands, with those resolutions declared procedurally defective. The article keeps the two cases distinct. The new receipting-fees paragraph states **our** view that the charges are irrational, opportunistic and unsupported by the Debt Collectors Act (section 8 written mandate); the adjudicator did not make a general ruling on their lawfulness under the Act, and the article says so. Have the attorney check the section 8 formulation before publication.
+4. **"Administrators were found to have circumvented our own rules" — narrowed.** Case 518005 found the association had not demonstrated that the disputed fees were imposed in accordance with its own handover requirements; it did not grant the blanket relief sought, and Trafalgar was not a party to Case 518015. The clear finding of departure from the Constitution is in 518015: electronic voting instead of the clause 5.6 show of hands, with those resolutions declared procedurally defective. The article keeps the two cases distinct. The new receipting-fees paragraph states **our** view that the charges are irrational, opportunistic and unsupported by the Debt Collectors Act (section 8 written mandate); the adjudicator did not make a general ruling on their lawfulness under the Act, and the article says so. Attorney review of the section 8 formulation was confirmed by the principal on 27 Nov 2026.
 
 5. **"Case by case" is our reading, not a literal phrase in the Constitution.** Clauses 7.6.8 and 8.6 vest the decision in the committee; they do not use the words "case by case". The article says "case-by-case treatment ... what the Constitution requires" as our interpretation. Keep it that way unless an attorney confirms the stronger claim.
 
@@ -82,7 +82,7 @@ https://soraliavillagecampaign.org.za/
 
 7. **Trafalgar framing trap.** Do not describe our position as opposing debt collection as such. Keep the standing distinction in paragraph 2 and section 5: we support legitimate collection and timely levy payment; we oppose unlawful circumvention of due process and action contrary to the Constitution and the Debt Collectors Act.
 
-8. **Publication decision.** This draft is deliberately outside `site/`, so pushing does not deploy it. To publish: move the reviewed text into `site/communities-not-debts.html` using the standard article layout and inlined header, add a Documents nav entry in `scripts/update-nav.py`, run `scripts/update-nav.py` and `--check`, add cross-links from the governance article and the article page, then deploy and verify the live page.
+8. **Publication decision.** Published at `/communities-not-debts.html` on 27 Nov 2026 with the inlined header, a Documents nav entry and cross-links from the article and governance pages. This source draft remains outside `site/`; regenerate the page with `/tmp/opencode/gen-communities-page.py` if the text changes.
 
 ## Sources used
 

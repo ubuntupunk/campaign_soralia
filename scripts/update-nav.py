@@ -24,6 +24,7 @@ GROUPS = [
     ("documents", "Documents", [
         ("/charter.html", "Charter", "charter.html"),
         ("/article.html", "Article", "article.html"),
+        ("/communities-not-debts.html", "Communities, Not Debts", "communities-not-debts.html"),
         ("/governance-article.html", "Governance", "governance-article.html"),
         ("/draft-resolution-clause-5-5.docx", "Draft motion", "draft-resolution-clause-5-5.docx"),
     ]),
