@@ -97,7 +97,7 @@ function thankYouHtml(name) {
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:640px;background:#ffffff;border-radius:12px;overflow:hidden">
 
 <tr><td style="background:#1e2d4a;padding:24px 32px">
-<a href="${site}" style="color:#ffffff;font-size:20px;font-weight:700;text-decoration:none">Soralia VC</a>
+<a href="${site}" style="display:inline-block;line-height:0"><img src="${site}/assets/svca-logo2-header.png" width="56" height="60" alt="Soralia Village Community Action" style="display:block;border:0;height:auto;max-width:56px"></a>
 </td></tr>
 
 <tr><td style="padding:32px">

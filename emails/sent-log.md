@@ -322,13 +322,13 @@ Total: 5 recipients, 5 individual sends, 5 delivered. Sent individually, never B
 
 | # | member_id | Scheduled for | Message ID | Status |
 |---|---|---|---|---|
-| 1 | m-001 | 2026-12-01 09:00 SAST | `1795769925055155300` | scheduled |
-| 2 | m-002 | 2026-12-01 09:00 SAST | `1795769935830138300` | scheduled |
-| 3 | m-003 | 2026-12-01 09:00 SAST | `1795769936215155000` | scheduled |
-| 4 | m-004 | 2026-12-01 09:00 SAST | `1795769936211155001` | scheduled |
-| 5 | m-005 | 2026-12-01 09:00 SAST | `1795769936422155000` | scheduled |
+| 1 | m-001 | 2026-12-01 09:00 SAST | `1795770411984138400` | scheduled |
+| 2 | m-002 | 2026-12-01 09:00 SAST | `1795770422329155100` | scheduled |
+| 3 | m-003 | 2026-12-01 09:00 SAST | `1795770422205155300` | scheduled |
+| 4 | m-004 | 2026-12-01 09:00 SAST | `1795770422055155100` | scheduled |
+| 5 | m-005 | 2026-12-01 09:00 SAST | `1795770422623138300` | scheduled |
 
-Scheduled as five individual HTML messages (never BCC), with unsubscribe wording and a "not legal advice" disclaimer, signed "Max, assistant to David Lewis". The private unredacted record is `emails/private/scheduled-sends.csv`. **Not yet sent:** replace "scheduled" with delivered status and move the rows into `emails/private/sent-log.csv` only after checking Zoho Sent on or after 1 Dec.
+Scheduled as five individual HTML messages (never BCC), with unsubscribe wording and a "not legal advice" disclaimer, signed "Max, assistant to David Lewis". The header uses the dark logo from `/assets/svca-logo2-header.png`. The first set of five schedules was cancelled on 27 Nov after the template was updated; the message IDs above are the replacement schedules. The private unredacted record is `emails/private/scheduled-sends.csv` (with the cancelled IDs for audit). **Not yet sent:** replace "scheduled" with delivered status and move the rows into `emails/private/sent-log.csv` only after checking Zoho Sent on or after 1 Dec.
 
 ---
 
