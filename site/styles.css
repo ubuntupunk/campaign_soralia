@@ -768,6 +768,23 @@ footer a {
     text-align: left;
 }
 
+.article-body > p:first-child {
+    font-size: 1.45rem;
+    line-height: 1.65;
+    margin-bottom: 2rem;
+}
+
+.article-body > p:first-child::first-letter {
+    color: var(--navy);
+    float: left;
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 5.2em;
+    font-weight: 600;
+    line-height: 0.78;
+    margin-top: 0.08em;
+    padding-right: 0.12em;
+}
+
 .article-body h2 {
     font-family: 'Inter', sans-serif;
     font-size: 1.75rem;
@@ -897,6 +914,15 @@ footer a {
 
     .article-body {
         font-size: 1.1rem;
+    }
+
+    .article-body > p:first-child {
+        font-size: 1.3rem;
+        line-height: 1.6;
+    }
+
+    .article-body > p:first-child::first-letter {
+        font-size: 4.8em;
     }
 
     .article-body blockquote {
